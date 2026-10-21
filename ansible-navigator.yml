@@ -1,0 +1,8 @@
+---
+ansible-navigator:
+  execution-environment:
+    enabled: false
+  ansible:
+    inventory:
+      entries:
+        - ./inventory

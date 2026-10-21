@@ -1,0 +1,867 @@
+2026-10-17T10:46:35.617895+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2026-10-17T10:46:35.618013+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2026-10-17T10:46:35.618041+00:00 DEBUG 'ansible_navigator.main' Babel==2.8.0 
+2026-10-17T10:46:35.618057+00:00 DEBUG 'ansible_navigator.main' Jinja2==3.0.3 
+2026-10-17T10:46:35.618070+00:00 DEBUG 'ansible_navigator.main' Mako==1.1.3 
+2026-10-17T10:46:35.618082+00:00 DEBUG 'ansible_navigator.main' MarkupSafe==2.0.1 
+2026-10-17T10:46:35.618092+00:00 DEBUG 'ansible_navigator.main' Parsley==1.3 
+2026-10-17T10:46:35.618103+00:00 DEBUG 'ansible_navigator.main' Pillow==9.0.1 
+2026-10-17T10:46:35.618113+00:00 DEBUG 'ansible_navigator.main' PyGObject==3.42.1 
+2026-10-17T10:46:35.618123+00:00 DEBUG 'ansible_navigator.main' PyJWT==2.3.0 
+2026-10-17T10:46:35.618133+00:00 DEBUG 'ansible_navigator.main' PyNaCl==1.5.0 
+2026-10-17T10:46:35.618143+00:00 DEBUG 'ansible_navigator.main' PyYAML==6.0.3 
+2026-10-17T10:46:35.618244+00:00 DEBUG 'ansible_navigator.main' SecretStorage==3.3.1 
+2026-10-17T10:46:35.618265+00:00 DEBUG 'ansible_navigator.main' ansible-base==2.10.8 
+2026-10-17T10:46:35.618279+00:00 DEBUG 'ansible_navigator.main' ansible-builder==3.1.1 
+2026-10-17T10:46:35.618291+00:00 DEBUG 'ansible_navigator.main' ansible-compat==26.9.0 
+2026-10-17T10:46:35.618302+00:00 DEBUG 'ansible_navigator.main' ansible-core==2.16.19 
+2026-10-17T10:46:35.618312+00:00 DEBUG 'ansible_navigator.main' ansible-lint==26.9.0 
+2026-10-17T10:46:35.618323+00:00 DEBUG 'ansible_navigator.main' ansible-navigator==26.9.0 
+2026-10-17T10:46:35.618333+00:00 DEBUG 'ansible_navigator.main' ansible-runner==2.4.3 
+2026-10-17T10:46:35.618343+00:00 DEBUG 'ansible_navigator.main' apache-libcloud==3.2.0 
+2026-10-17T10:46:35.618354+00:00 DEBUG 'ansible_navigator.main' argcomplete==1.8.1 /usr/lib/python3/dist-packages/argcomplete/__init__.py
+2026-10-17T10:46:35.618364+00:00 DEBUG 'ansible_navigator.main' bcrypt==3.2.0 /usr/lib/python3/dist-packages/bcrypt/__init__.py
+2026-10-17T10:46:35.618375+00:00 DEBUG 'ansible_navigator.main' bindep==2.14.0 /usr/local/lib/python3.10/dist-packages/bindep/__init__.py
+2026-10-17T10:46:35.618386+00:00 DEBUG 'ansible_navigator.main' certifi==2020.6.20 /usr/lib/python3/dist-packages/certifi/__init__.py
+2026-10-17T10:46:35.618397+00:00 DEBUG 'ansible_navigator.main' cffi==2.0.0 /usr/local/lib/python3.10/dist-packages/cffi/__init__.py
+2026-10-17T10:46:35.618407+00:00 DEBUG 'ansible_navigator.main' chardet==4.0.0 /usr/lib/python3/dist-packages/chardet/__init__.py
+2026-10-17T10:46:35.618418+00:00 DEBUG 'ansible_navigator.main' click==8.0.3 /usr/lib/python3/dist-packages/click/__init__.py
+2026-10-17T10:46:35.618428+00:00 DEBUG 'ansible_navigator.main' colorama==0.4.4 /usr/lib/python3/dist-packages/colorama/__init__.py
+2026-10-17T10:46:35.618439+00:00 DEBUG 'ansible_navigator.main' cryptography==50.0.2 /usr/local/lib/python3.10/dist-packages/cryptography/__init__.py
+2026-10-17T10:46:35.618449+00:00 DEBUG 'ansible_navigator.main' dbus-python==1.2.18 
+2026-10-17T10:46:35.618459+00:00 DEBUG 'ansible_navigator.main' defer==1.0.6 /usr/lib/python3/dist-packages/defer/__init__.py
+2026-10-17T10:46:35.618470+00:00 DEBUG 'ansible_navigator.main' distro-info==1.1+ubuntu0.2 
+2026-10-17T10:46:35.618480+00:00 DEBUG 'ansible_navigator.main' distro==1.9.0 /usr/local/lib/python3.10/dist-packages/distro/__init__.py
+2026-10-17T10:46:35.618491+00:00 DEBUG 'ansible_navigator.main' dnspython==2.1.0 
+2026-10-17T10:46:35.618501+00:00 DEBUG 'ansible_navigator.main' duplicity==0.8.21 /usr/lib/python3/dist-packages/duplicity/__init__.py
+2026-10-17T10:46:35.618512+00:00 DEBUG 'ansible_navigator.main' fasteners==0.14.1 /usr/lib/python3/dist-packages/fasteners/__init__.py
+2026-10-17T10:46:35.618521+00:00 DEBUG 'ansible_navigator.main' future==0.18.2 /usr/lib/python3/dist-packages/future/__init__.py
+2026-10-17T10:46:35.618531+00:00 DEBUG 'ansible_navigator.main' httplib2==0.20.2 /usr/lib/python3/dist-packages/httplib2/__init__.py
+2026-10-17T10:46:35.618542+00:00 DEBUG 'ansible_navigator.main' idna==3.3 /usr/lib/python3/dist-packages/idna/__init__.py
+2026-10-17T10:46:35.618560+00:00 DEBUG 'ansible_navigator.main' importlib-metadata==4.6.4 
+2026-10-17T10:46:35.618571+00:00 DEBUG 'ansible_navigator.main' invoke==3.0.3 /usr/local/lib/python3.10/dist-packages/invoke/__init__.py
+2026-10-17T10:46:35.618582+00:00 DEBUG 'ansible_navigator.main' jmespath==0.10.0 /usr/lib/python3/dist-packages/jmespath/__init__.py
+2026-10-17T10:46:35.618592+00:00 DEBUG 'ansible_navigator.main' keyring==23.5.0 /usr/lib/python3/dist-packages/keyring/__init__.py
+2026-10-17T10:46:35.618602+00:00 DEBUG 'ansible_navigator.main' language-selector==0.1 
+2026-10-17T10:46:35.618613+00:00 DEBUG 'ansible_navigator.main' launchpadlib==1.10.16 /usr/lib/python3/dist-packages/launchpadlib/__init__.py
+2026-10-17T10:46:35.618629+00:00 DEBUG 'ansible_navigator.main' lazr.restfulclient==0.14.4 /usr/lib/python3/dist-packages/lazr/restfulclient/__init__.py
+2026-10-17T10:46:35.618640+00:00 DEBUG 'ansible_navigator.main' lazr.uri==1.0.6 /usr/lib/python3/dist-packages/lazr/uri/__init__.py
+2026-10-17T10:46:35.618650+00:00 DEBUG 'ansible_navigator.main' lockfile==0.12.2 /usr/lib/python3/dist-packages/lockfile/__init__.py
+2026-10-17T10:46:35.618660+00:00 DEBUG 'ansible_navigator.main' lxml==6.1.2 /usr/local/lib/python3.10/dist-packages/lxml/__init__.py
+2026-10-17T10:46:35.618671+00:00 DEBUG 'ansible_navigator.main' macaroonbakery==1.3.1 /usr/lib/python3/dist-packages/macaroonbakery/__init__.py
+2026-10-17T10:46:35.618680+00:00 DEBUG 'ansible_navigator.main' monotonic==1.6 /usr/lib/python3/dist-packages/monotonic.py
+2026-10-17T10:46:35.618690+00:00 DEBUG 'ansible_navigator.main' more-itertools==8.10.0 
+2026-10-17T10:46:35.618701+00:00 DEBUG 'ansible_navigator.main' netaddr==0.8.0 /usr/lib/python3/dist-packages/netaddr/__init__.py
+2026-10-17T10:46:35.618711+00:00 DEBUG 'ansible_navigator.main' netifaces==0.11.0 /usr/lib/python3/dist-packages/netifaces.cpython-310-x86_64-linux-gnu.so
+2026-10-17T10:46:35.618721+00:00 DEBUG 'ansible_navigator.main' ntlm-auth==1.4.0 
+2026-10-17T10:46:35.618731+00:00 DEBUG 'ansible_navigator.main' oauthlib==3.2.0 /usr/lib/python3/dist-packages/oauthlib/__init__.py
+2026-10-17T10:46:35.618742+00:00 DEBUG 'ansible_navigator.main' olefile==0.46 /usr/lib/python3/dist-packages/olefile/__init__.py
+2026-10-17T10:46:35.618752+00:00 DEBUG 'ansible_navigator.main' onigurumacffi==1.5.0 /usr/local/lib/python3.10/dist-packages/onigurumacffi.py
+2026-10-17T10:46:35.618762+00:00 DEBUG 'ansible_navigator.main' packaging==26.3 /usr/local/lib/python3.10/dist-packages/packaging/__init__.py
+2026-10-17T10:46:35.618772+00:00 DEBUG 'ansible_navigator.main' paramiko==4.0.0 /usr/local/lib/python3.10/dist-packages/paramiko/__init__.py
+2026-10-17T10:46:35.618783+00:00 DEBUG 'ansible_navigator.main' pbr==7.1.3 /usr/local/lib/python3.10/dist-packages/pbr/__init__.py
+2026-10-17T10:46:35.618793+00:00 DEBUG 'ansible_navigator.main' pip==22.0.2 /usr/lib/python3/dist-packages/pip/__init__.py
+2026-10-17T10:46:35.618803+00:00 DEBUG 'ansible_navigator.main' protobuf==3.12.4 
+2026-10-17T10:46:35.618813+00:00 DEBUG 'ansible_navigator.main' pyRFC3339==1.1 
+2026-10-17T10:46:35.618824+00:00 DEBUG 'ansible_navigator.main' pycparser==3.0 /usr/local/lib/python3.10/dist-packages/pycparser/__init__.py
+2026-10-17T10:46:35.618833+00:00 DEBUG 'ansible_navigator.main' pycryptodomex==3.11.0 
+2026-10-17T10:46:35.618844+00:00 DEBUG 'ansible_navigator.main' pykerberos==1.1.14 
+2026-10-17T10:46:35.618854+00:00 DEBUG 'ansible_navigator.main' pymacaroons==0.13.0 /usr/lib/python3/dist-packages/pymacaroons/__init__.py
+2026-10-17T10:46:35.618864+00:00 DEBUG 'ansible_navigator.main' pyparsing==2.4.7 /usr/lib/python3/dist-packages/pyparsing.py
+2026-10-17T10:46:35.618874+00:00 DEBUG 'ansible_navigator.main' pyserial==3.5 
+2026-10-17T10:46:35.618884+00:00 DEBUG 'ansible_navigator.main' python-apt==2.4.0+ubuntu4.1 
+2026-10-17T10:46:35.618895+00:00 DEBUG 'ansible_navigator.main' python-daemon==3.1.2 
+2026-10-17T10:46:35.618905+00:00 DEBUG 'ansible_navigator.main' python-dateutil==2.8.1 
+2026-10-17T10:46:35.618917+00:00 DEBUG 'ansible_navigator.main' python-debian==0.1.43+ubuntu1.1 
+2026-10-17T10:46:35.618928+00:00 DEBUG 'ansible_navigator.main' pytokens==0.4.1 /usr/local/lib/python3.10/dist-packages/pytokens/__init__.cpython-310-x86_64-linux-gnu.so
+2026-10-17T10:46:35.618942+00:00 DEBUG 'ansible_navigator.main' pytz==2022.1 /usr/lib/python3/dist-packages/pytz/__init__.py
+2026-10-17T10:46:35.618953+00:00 DEBUG 'ansible_navigator.main' pywinrm==0.3.0 
+2026-10-17T10:46:35.618963+00:00 DEBUG 'ansible_navigator.main' pyxdg==0.27 
+2026-10-17T10:46:35.618973+00:00 DEBUG 'ansible_navigator.main' reportlab==3.6.8 /usr/lib/python3/dist-packages/reportlab/__init__.py
+2026-10-17T10:46:35.618984+00:00 DEBUG 'ansible_navigator.main' requests-kerberos==0.12.0 
+2026-10-17T10:46:35.618994+00:00 DEBUG 'ansible_navigator.main' requests-ntlm==1.1.0 
+2026-10-17T10:46:35.619004+00:00 DEBUG 'ansible_navigator.main' requests-toolbelt==0.9.1 
+2026-10-17T10:46:35.619014+00:00 DEBUG 'ansible_navigator.main' requests==2.25.1 /usr/lib/python3/dist-packages/requests/__init__.py
+2026-10-17T10:46:35.619025+00:00 DEBUG 'ansible_navigator.main' resolvelib==1.0.1 /usr/local/lib/python3.10/dist-packages/resolvelib/__init__.py
+2026-10-17T10:46:35.619035+00:00 DEBUG 'ansible_navigator.main' ruamel.yaml==0.19.1 /usr/local/lib/python3.10/dist-packages/ruamel/yaml/__init__.py
+2026-10-17T10:46:35.619045+00:00 DEBUG 'ansible_navigator.main' scp==0.15.0 /usr/local/lib/python3.10/dist-packages/scp.py
+2026-10-17T10:46:35.619055+00:00 DEBUG 'ansible_navigator.main' setuptools==59.6.0 /usr/lib/python3/dist-packages/setuptools/__init__.py
+2026-10-17T10:46:35.619066+00:00 DEBUG 'ansible_navigator.main' simplejson==3.17.6 /usr/lib/python3/dist-packages/simplejson/__init__.py
+2026-10-17T10:46:35.619076+00:00 DEBUG 'ansible_navigator.main' six==1.16.0 /usr/lib/python3/dist-packages/six.py
+2026-10-17T10:46:35.619086+00:00 DEBUG 'ansible_navigator.main' ssh-import-id==5.11 
+2026-10-17T10:46:35.619096+00:00 DEBUG 'ansible_navigator.main' subprocess-tee==0.4.2 
+2026-10-17T10:46:35.619107+00:00 DEBUG 'ansible_navigator.main' textfsm==2.1.0 /usr/local/lib/python3.10/dist-packages/textfsm/__init__.py
+2026-10-17T10:46:35.619117+00:00 DEBUG 'ansible_navigator.main' tzdata==2026.5 /usr/local/lib/python3.10/dist-packages/tzdata/__init__.py
+2026-10-17T10:46:35.619128+00:00 DEBUG 'ansible_navigator.main' ubuntu-drivers-common==0.0.0 
+2026-10-17T10:46:35.619142+00:00 DEBUG 'ansible_navigator.main' ubuntu-pro-client==8001 
+2026-10-17T10:46:35.619153+00:00 DEBUG 'ansible_navigator.main' urllib3==1.26.5 /usr/lib/python3/dist-packages/urllib3/__init__.py
+2026-10-17T10:46:35.619163+00:00 DEBUG 'ansible_navigator.main' wadllib==1.3.6 /usr/lib/python3/dist-packages/wadllib/__init__.py
+2026-10-17T10:46:35.619174+00:00 DEBUG 'ansible_navigator.main' wheel==0.37.1 /usr/lib/python3/dist-packages/wheel/__init__.py
+2026-10-17T10:46:35.619184+00:00 DEBUG 'ansible_navigator.main' xmltodict==0.12.0 /usr/lib/python3/dist-packages/xmltodict.py
+2026-10-17T10:46:35.619194+00:00 DEBUG 'ansible_navigator.main' yamllint==1.38.0 /usr/local/lib/python3.10/dist-packages/yamllint/__init__.py
+2026-10-17T10:46:35.619204+00:00 DEBUG 'ansible_navigator.main' zipp==1.0.0 /usr/lib/python3/dist-packages/zipp.py
+2026-10-17T10:46:35.619214+00:00 DEBUG 'ansible_navigator.main' Default collection_doc_cache_path set to: /root/.cache/ansible-navigator/collection_doc_cache.db
+2026-10-17T10:46:35.619225+00:00 DEBUG 'ansible_navigator.main' EDITOR environment variable not set
+2026-10-17T10:46:35.619235+00:00 DEBUG 'ansible_navigator.main' Default editor_command set to: vi +{line_number} {filename}
+2026-10-17T10:46:35.619245+00:00 DEBUG 'ansible_navigator.main' No config file set by ANSIBLE_NAVIGATOR_CONFIG
+2026-10-17T10:46:35.619255+00:00 DEBUG 'ansible_navigator.main' Looking in /root/.ansible-navigator
+2026-10-17T10:46:35.619265+00:00 DEBUG 'ansible_navigator.main' Looking for '/root/.ansible-navigator.yml', '/root/.ansible-navigator.yaml' and '/root/.ansible-navigator.json'
+2026-10-17T10:46:35.619277+00:00 DEBUG 'ansible_navigator.main' Found 0: 
+2026-10-17T10:46:35.619288+00:00 DEBUG 'ansible_navigator.main' Looking in /root/implement-inventory/ansible-navigator
+2026-10-17T10:46:35.619298+00:00 DEBUG 'ansible_navigator.main' Looking for '/root/implement-inventory/ansible-navigator.yml', '/root/implement-inventory/ansible-navigator.yaml' and '/root/implement-inventory/ansible-navigator.json'
+2026-10-17T10:46:35.619308+00:00 DEBUG 'ansible_navigator.main' Found 0: 
+2026-10-17T10:46:35.619318+00:00 DEBUG 'ansible_navigator.main' All found 0: 
+2026-10-17T10:46:35.619328+00:00 DEBUG 'ansible_navigator.main' Using: None
+2026-10-17T10:46:35.619339+00:00 DEBUG 'ansible_navigator.main' No valid settings file found, using all default values for settings.
+2026-10-17T10:46:35.619349+00:00 DEBUG 'ansible_navigator.main' Command provided: 'inventory -i inventory --mode text'
+2026-10-17T10:46:35.619359+00:00 DEBUG 'ansible_navigator.main' EE support enabled: using current working directory for 'ansible.cfg'
+2026-10-17T10:46:35.619369+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /root/implement-inventory/ansible.cfg
+2026-10-17T10:46:35.619380+00:00 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_artifact_dir. (changed=False)
+2026-10-17T10:46:35.619390+00:00 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_rotate_artifacts_count. (changed=False)
+2026-10-17T10:46:35.619401+00:00 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_timeout. (changed=False)
+2026-10-17T10:46:35.619411+00:00 DEBUG 'ansible_navigator.main' Completed post processing for cmdline. (changed=False)
+2026-10-17T10:46:35.619421+00:00 DEBUG 'ansible_navigator.main' Completed post processing for collection_doc_cache_path. (changed=False)
+2026-10-17T10:46:35.619431+00:00 DEBUG 'ansible_navigator.main' Completed post processing for config. (changed=False)
+2026-10-17T10:46:35.619442+00:00 DEBUG 'ansible_navigator.main' Completed post processing for config. (changed=False)
+2026-10-17T10:46:35.619485+00:00 DEBUG 'ansible_navigator.main' Completed post processing for container_engine. (changed=True)
+2026-10-17T10:46:35.619497+00:00 DEBUG 'ansible_navigator.main'  before: 'auto'
+2026-10-17T10:46:35.619508+00:00 DEBUG 'ansible_navigator.main'  after: 'podman'
+2026-10-17T10:46:35.619519+00:00 DEBUG 'ansible_navigator.main' Completed post processing for container_options. (changed=False)
+2026-10-17T10:46:35.619529+00:00 DEBUG 'ansible_navigator.main' Completed post processing for display_color. (changed=False)
+2026-10-17T10:46:35.619539+00:00 DEBUG 'ansible_navigator.main' Completed post processing for enable_prompts. (changed=False)
+2026-10-17T10:46:35.619549+00:00 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment. (changed=False)
+2026-10-17T10:46:35.619560+00:00 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment_image. (changed=False)
+2026-10-17T10:46:35.619570+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_builder. (changed=False)
+2026-10-17T10:46:35.619581+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_config. (changed=False)
+2026-10-17T10:46:35.619591+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_doc. (changed=False)
+2026-10-17T10:46:35.619601+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_inventory. (changed=False)
+2026-10-17T10:46:35.619611+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_playbook. (changed=False)
+2026-10-17T10:46:35.619621+00:00 DEBUG 'ansible_navigator.main' Completed post processing for images_details. (changed=False)
+2026-10-17T10:46:35.619632+00:00 DEBUG 'ansible_navigator.main' Completed post processing for inventory. (changed=True)
+2026-10-17T10:46:35.619646+00:00 DEBUG 'ansible_navigator.main'  before: '[['inventory']]'
+2026-10-17T10:46:35.619657+00:00 DEBUG 'ansible_navigator.main'  after: '['/root/implement-inventory/inventory']'
+2026-10-17T10:46:35.619668+00:00 DEBUG 'ansible_navigator.main' Completed post processing for inventory_column. (changed=False)
+2026-10-17T10:46:35.619679+00:00 DEBUG 'ansible_navigator.main' Completed post processing for log_file. (changed=False)
+2026-10-17T10:46:35.619689+00:00 DEBUG 'ansible_navigator.main' Completed post processing for pass_environment_variable. (changed=False)
+2026-10-17T10:46:35.619699+00:00 DEBUG 'ansible_navigator.main' Completed post processing for playbook. (changed=False)
+2026-10-17T10:46:35.619709+00:00 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_replay. (changed=False)
+2026-10-17T10:46:35.619719+00:00 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_save_as. (changed=False)
+2026-10-17T10:46:35.619729+00:00 DEBUG 'ansible_navigator.main' Completed post processing for plugin_name. (changed=False)
+2026-10-17T10:46:35.619739+00:00 DEBUG 'ansible_navigator.main' Completed post processing for pull_arguments. (changed=False)
+2026-10-17T10:46:35.619749+00:00 DEBUG 'ansible_navigator.main' Completed post processing for set_environment_variable. (changed=False)
+2026-10-17T10:46:35.619759+00:00 DEBUG 'ansible_navigator.main' Completed post processing for settings_effective. (changed=False)
+2026-10-17T10:46:35.619769+00:00 DEBUG 'ansible_navigator.main' Completed post processing for settings_sample. (changed=False)
+2026-10-17T10:46:35.619779+00:00 DEBUG 'ansible_navigator.main' Completed post processing for settings_schema. (changed=False)
+2026-10-17T10:46:35.619789+00:00 DEBUG 'ansible_navigator.main' Completed post processing for settings_sources. (changed=False)
+2026-10-17T10:46:35.619799+00:00 DEBUG 'ansible_navigator.main' Completed post processing for time_zone. (changed=False)
+2026-10-17T10:46:35.619809+00:00 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment_volume_mounts. (changed=False)
+2026-10-17T10:46:35.619819+00:00 DEBUG 'ansible_navigator.main' Completed post processing for mode. (changed=False)
+2026-10-17T10:46:35.619830+00:00 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_enable. (changed=False)
+2026-10-17T10:46:35.619843+00:00 WARNING 'ansible_navigator.main' Configuration errors encountered, rolling back to previous configuration.
+2026-10-17T10:46:35.619855+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_artifact_dir = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.619865+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_rotate_artifacts_count = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.619875+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_timeout = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.619885+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_write_job_events = 'False' (bool/Defaults)
+2026-10-17T10:46:35.619896+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: app = 'inventory' (str/Command line)
+2026-10-17T10:46:35.619906+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: cmdline = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.619916+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: collection_doc_cache_path = '/root/.cache/ansible-navigator/collection_doc_cache.db' (str/Defaults)
+2026-10-17T10:46:35.619927+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: config = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.619937+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: container_engine = 'podman' (str/Automatically determined)
+2026-10-17T10:46:35.619947+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: container_options = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.619957+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: display_color = 'True' (bool/Defaults)
+2026-10-17T10:46:35.619968+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: editor_command = 'vi +{line_number} {filename}' (str/Defaults)
+2026-10-17T10:46:35.619978+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: editor_console = 'True' (bool/Defaults)
+2026-10-17T10:46:35.619992+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: enable_prompts = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620002+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: exec_command = '/bin/bash' (str/Defaults)
+2026-10-17T10:46:35.620012+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: exec_shell = 'True' (bool/Defaults)
+2026-10-17T10:46:35.620023+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment = 'True' (bool/Defaults)
+2026-10-17T10:46:35.620033+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment_image = 'ghcr.io/ansible/community-ansible-dev-tools:latest' (str/Defaults)
+2026-10-17T10:46:35.620043+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment_volume_mounts = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620053+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: format = 'yaml' (str/Defaults)
+2026-10-17T10:46:35.620063+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_builder = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620074+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_config = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620085+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_doc = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620095+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_inventory = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620105+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_playbook = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620117+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: images_details = '['everything']' (list/Defaults)
+2026-10-17T10:46:35.620127+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: inventory = '['/root/implement-inventory/inventory']' (list/Command line)
+2026-10-17T10:46:35.620137+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: inventory_column = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620150+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: lint_config = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620159+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: lintables = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620169+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_append = 'True' (bool/Defaults)
+2026-10-17T10:46:35.620179+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_file = '/root/implement-inventory/ansible-navigator.log' (str/Defaults)
+2026-10-17T10:46:35.620190+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_level = 'warning' (str/Defaults)
+2026-10-17T10:46:35.620200+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: mode = 'text' (str/Command line)
+2026-10-17T10:46:35.620210+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: osc4 = 'True' (bool/Defaults)
+2026-10-17T10:46:35.620220+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pass_environment_variable = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620229+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620239+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_enable = 'True' (bool/Defaults)
+2026-10-17T10:46:35.620249+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_replay = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620259+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_save_as = '{playbook_dir}/{playbook_name}-artifact-{time_stamp}.json' (str/Defaults)
+2026-10-17T10:46:35.620269+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: plugin_name = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620279+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: plugin_type = 'module' (str/Defaults)
+2026-10-17T10:46:35.620289+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pull_arguments = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620299+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pull_policy = 'tag' (str/Defaults)
+2026-10-17T10:46:35.620310+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: set_environment_variable = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620320+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_effective = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620330+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_sample = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620340+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_schema = 'json' (str/Defaults)
+2026-10-17T10:46:35.620350+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_sources = 'False' (bool/Defaults)
+2026-10-17T10:46:35.620360+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: time_zone = 'UTC' (str/Defaults)
+2026-10-17T10:46:35.620370+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: workdir = '/root/implement-inventory' (str/Defaults)
+2026-10-17T10:46:35.620380+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_artifact_dir = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620390+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_rotate_artifacts_count = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620399+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_timeout = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620409+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_write_job_events = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620419+00:00 DEBUG 'ansible_navigator.main' After rollback: app = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620429+00:00 DEBUG 'ansible_navigator.main' After rollback: cmdline = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620439+00:00 DEBUG 'ansible_navigator.main' After rollback: collection_doc_cache_path = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620449+00:00 DEBUG 'ansible_navigator.main' After rollback: config = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620459+00:00 DEBUG 'ansible_navigator.main' After rollback: container_engine = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620469+00:00 DEBUG 'ansible_navigator.main' After rollback: container_options = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620479+00:00 DEBUG 'ansible_navigator.main' After rollback: display_color = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620489+00:00 DEBUG 'ansible_navigator.main' After rollback: editor_command = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620499+00:00 DEBUG 'ansible_navigator.main' After rollback: editor_console = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620509+00:00 DEBUG 'ansible_navigator.main' After rollback: enable_prompts = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620519+00:00 DEBUG 'ansible_navigator.main' After rollback: exec_command = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620529+00:00 DEBUG 'ansible_navigator.main' After rollback: exec_shell = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620539+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620549+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment_image = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620559+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment_volume_mounts = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620569+00:00 DEBUG 'ansible_navigator.main' After rollback: format = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620579+00:00 DEBUG 'ansible_navigator.main' After rollback: help_builder = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620589+00:00 DEBUG 'ansible_navigator.main' After rollback: help_config = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620599+00:00 DEBUG 'ansible_navigator.main' After rollback: help_doc = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620609+00:00 DEBUG 'ansible_navigator.main' After rollback: help_inventory = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620619+00:00 DEBUG 'ansible_navigator.main' After rollback: help_playbook = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620630+00:00 DEBUG 'ansible_navigator.main' After rollback: images_details = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620640+00:00 DEBUG 'ansible_navigator.main' After rollback: inventory = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620655+00:00 DEBUG 'ansible_navigator.main' After rollback: inventory_column = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620665+00:00 DEBUG 'ansible_navigator.main' After rollback: lint_config = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620675+00:00 DEBUG 'ansible_navigator.main' After rollback: lintables = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620685+00:00 DEBUG 'ansible_navigator.main' After rollback: log_append = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620695+00:00 DEBUG 'ansible_navigator.main' After rollback: log_file = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620705+00:00 DEBUG 'ansible_navigator.main' After rollback: log_level = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620714+00:00 DEBUG 'ansible_navigator.main' After rollback: mode = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620724+00:00 DEBUG 'ansible_navigator.main' After rollback: osc4 = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620734+00:00 DEBUG 'ansible_navigator.main' After rollback: pass_environment_variable = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620744+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620754+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_enable = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620764+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_replay = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620774+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_save_as = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620784+00:00 DEBUG 'ansible_navigator.main' After rollback: plugin_name = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620794+00:00 DEBUG 'ansible_navigator.main' After rollback: plugin_type = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620804+00:00 DEBUG 'ansible_navigator.main' After rollback: pull_arguments = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620814+00:00 DEBUG 'ansible_navigator.main' After rollback: pull_policy = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620824+00:00 DEBUG 'ansible_navigator.main' After rollback: set_environment_variable = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620834+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_effective = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620843+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_sample = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620853+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_schema = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620863+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_sources = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620873+00:00 DEBUG 'ansible_navigator.main' After rollback: time_zone = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620883+00:00 DEBUG 'ansible_navigator.main' After rollback: workdir = 'Not set' (Constants/Not set)
+2026-10-17T10:46:35.620893+00:00 DEBUG 'ansible_navigator.main' Configuration rollback complete.
+2026-10-17T10:46:35.620903+00:00 DEBUG 'ansible_navigator.main' Collection doc cache not mounted
+2026-10-17T10:46:35.620923+00:00 WARNING 'ansible_navigator.main' Issues were found while applying the settings.
+2026-10-17T10:46:35.620935+00:00 INFO 'ansible_navigator.main' Command provided: 'inventory -i inventory --mode text'
+2026-10-17T10:46:35.620949+00:00 ERROR 'ansible_navigator.main' The setting 'mode' must be one of 'stdout' or 'interactive', but set as 'text'. (Command line)
+2026-10-17T10:46:35.620960+00:00 INFO 'ansible_navigator.main' Try again with '-m stdout' or '-m interactive'
+2026-10-17T10:46:35.620972+00:00 INFO 'ansible_navigator.main' Configuration failed, using default log file location. (/root/implement-inventory/ansible-navigator.log) Log level set to debug
+2026-10-17T10:46:35.620984+00:00 INFO 'ansible_navigator.main' Review the hints and log file to see what went wrong.
+2026-10-17T10:51:16.094891+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/libssh.py ParserError (get_docstring): while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    author:
+    ^
+expected <block end>, but found '<block mapping start>'
+  in "<unicode string>", line 3, column 5:
+        name: libssh
+        ^
+2026-10-17T11:06:59.033986+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c481ec33-1337-4002-8b37-1655baa2452d', 'counter': 1, 'stdout': '\x1b[0;31m[ERROR]: the playbook: get_facts.yml could not be found\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': '6166ebf3-792f-4b24-a7e0-8a8544ab8248', 'created': '2026-10-17T11:06:59.030177+00:00'}
+2026-10-17T11:14:47.549009+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e662c636-a205-46f2-b50b-842fb0538f7a', 'counter': 1, 'stdout': "\x1b[0;31m[ERROR]: couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': 'c9f2168b-2a2f-4028-87dc-c88381d75af9', 'created': '2026-10-17T11:14:47.543006+00:00'}
+2026-10-17T11:14:47.549225+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '51ba40aa-89cf-4600-96ba-628302b5ff1a', 'counter': 2, 'stdout': '\x1b[0;31mOrigin: /root/implement-inventory/get_facts.yml:6:7\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': 'c9f2168b-2a2f-4028-87dc-c88381d75af9', 'created': '2026-10-17T11:14:47.543821+00:00'}
+2026-10-17T11:14:47.549286+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1924e05e-aa8e-44fa-9031-f7cca85b1773', 'counter': 3, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 2, 'end_line': 3, 'runner_ident': 'c9f2168b-2a2f-4028-87dc-c88381d75af9', 'created': '2026-10-17T11:14:47.543876+00:00'}
+2026-10-17T11:14:47.549334+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '878a78cf-7969-4e7f-90d4-f7e4769e49e7', 'counter': 4, 'stdout': '\x1b[0;31m4   gather_facts: false\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': 'c9f2168b-2a2f-4028-87dc-c88381d75af9', 'created': '2026-10-17T11:14:47.543899+00:00'}
+2026-10-17T11:14:47.549375+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'b0307e47-fbbf-4886-b50e-757a5b222502', 'counter': 5, 'stdout': '\x1b[0;31m5   tasks:\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': 'c9f2168b-2a2f-4028-87dc-c88381d75af9', 'created': '2026-10-17T11:14:47.543918+00:00'}
+2026-10-17T11:14:47.549416+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e9b2361d-9efa-4ff6-a95d-ac7ca8ba3333', 'counter': 6, 'stdout': '\x1b[0;31m6     - name: Get Cisco IOS devices facts\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': 'c9f2168b-2a2f-4028-87dc-c88381d75af9', 'created': '2026-10-17T11:14:47.543937+00:00'}
+2026-10-17T11:14:47.549455+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'cae38f29-41bf-46bc-891c-e67f76c73e0a', 'counter': 7, 'stdout': '\x1b[0;31m        ^ column 7\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': 'c9f2168b-2a2f-4028-87dc-c88381d75af9', 'created': '2026-10-17T11:14:47.543954+00:00'}
+2026-10-17T11:14:47.549501+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'bcfdcfde-8fbe-413f-9c8c-594b16456942', 'counter': 8, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': 'c9f2168b-2a2f-4028-87dc-c88381d75af9', 'created': '2026-10-17T11:14:47.543970+00:00'}
+2026-10-17T11:35:42.551899+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2026-10-17T11:35:42.552073+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2026-10-17T11:35:42.552105+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: error inspecting object: registry.redhat.io/ansible-automation-platform/ee-supported-rhel9:latest: image not known
+
+2026-10-17T11:35:44.776673+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2026-10-17T11:40:18.848461+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2026-10-17T11:40:18.848717+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2026-10-17T11:40:18.848774+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: error inspecting object: registry.redhat.io/ansible-automation-platform/ee-supported-rhel9:latest: image not known
+
+2026-10-17T11:40:21.338065+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2026-10-17T11:45:18.365728+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2026-10-17T11:45:18.365824+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2026-10-17T11:45:18.365847+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: error inspecting object: quay.io/ansible/creator-ee:latest: image not known
+
+2026-10-17T11:47:11.352389+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '6ea294e4-dc28-4ea1-93ba-3d56defafdad', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347094+00:00'}
+2026-10-17T11:47:11.353029+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '80b611c3-def7-46e2-8190-9b3928a26a28', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347453+00:00'}
+2026-10-17T11:47:11.353298+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'b28ce9cc-198f-43df-bf77-84ce43797ebb', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347511+00:00'}
+2026-10-17T11:47:11.353601+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '8c6d1638-5635-4d43-9e2a-d0b1ec4c7673', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347535+00:00'}
+2026-10-17T11:47:11.353899+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '4f4b38af-04b4-4056-8991-8d8a944f3e93', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347554+00:00'}
+2026-10-17T11:47:11.354134+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9903e435-a051-4a27-a630-70e2f42061e4', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347572+00:00'}
+2026-10-17T11:47:11.354419+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '53cfdc71-7855-4d2e-8d57-bb4e317db2e3', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347589+00:00'}
+2026-10-17T11:47:11.354552+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a6cbd7bc-a2bb-40bf-a37b-58f7432fd111', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347606+00:00'}
+2026-10-17T11:47:11.354863+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'f822136a-7388-4dd6-b1f3-30f2cf7f53a0', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS devices facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347623+00:00'}
+2026-10-17T11:47:11.355098+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3e771758-dc42-46bd-a6cd-911dfba37354', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '39160d5c-a77a-4881-841a-8039683b9aa7', 'created': '2026-10-17T11:47:11.347641+00:00'}
+2026-10-17T11:49:35.584898+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '098d9be8-4c82-49cc-8dfa-d8db31eff9b3', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580331+00:00'}
+2026-10-17T11:49:35.586265+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '21db340c-aecb-4111-8000-e07efdfe3ab1', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580444+00:00'}
+2026-10-17T11:49:35.586573+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '511556a7-f37e-4d85-841c-d3f399947d0e', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580472+00:00'}
+2026-10-17T11:49:35.586859+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e7024134-a55b-4383-895d-49b649dae595', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580494+00:00'}
+2026-10-17T11:49:35.586972+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '96b20ac8-92cb-46a3-a1c1-a16c51924b4a', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580515+00:00'}
+2026-10-17T11:49:35.587011+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '8c62c28a-a327-4217-920f-3b38db6b171b', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580533+00:00'}
+2026-10-17T11:49:35.587039+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3340c523-9924-466b-9dbc-1c233d0f2197', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580552+00:00'}
+2026-10-17T11:49:35.587065+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'fa0b05ea-396d-4075-aa26-740261d16758', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580571+00:00'}
+2026-10-17T11:49:35.587091+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a5a3d528-144b-4875-b6df-453dd248b724', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580592+00:00'}
+2026-10-17T11:49:35.587123+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a7da75ff-fa4c-4b19-95a0-fb94bdc7361d', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '7a646f5e-7902-4baf-be84-25a9baadb1b3', 'created': '2026-10-17T11:49:35.580610+00:00'}
+2026-10-17T11:59:28.967105+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'fcb5d683-0cb5-44f6-a8e1-95afd6c9937d', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963671+00:00'}
+2026-10-17T11:59:28.967583+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'f8f6718b-1fa9-472d-a90b-d0d869bd1827', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963801+00:00'}
+2026-10-17T11:59:28.967717+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a1353fb8-5ce0-46ca-a000-9fa786e053ce', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963832+00:00'}
+2026-10-17T11:59:28.967845+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'bd0ddb0a-3030-45dd-871e-36153798836b', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963855+00:00'}
+2026-10-17T11:59:28.967893+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'bc0832b7-a643-490a-821f-e5656ae3590d', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963875+00:00'}
+2026-10-17T11:59:28.967942+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '019818db-6786-4543-9257-dd0591d0cc8b', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963895+00:00'}
+2026-10-17T11:59:28.968051+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '10d6cd53-1abf-4253-9e63-90fd850dcfbe', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963915+00:00'}
+2026-10-17T11:59:28.968115+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e38f02fd-5c98-46af-bd65-2f715a66fd3e', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963934+00:00'}
+2026-10-17T11:59:28.968147+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1f3a4a94-1416-4af0-9d0f-ace72f008b98', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963952+00:00'}
+2026-10-17T11:59:28.968199+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '84e745af-aa4a-4659-9c3a-28af83064092', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '4d257375-9458-4b79-8159-e651e6589879', 'created': '2026-10-17T11:59:28.963970+00:00'}
+2026-10-17T12:00:35.659027+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2026-10-17T12:00:35.659120+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2026-10-17T12:00:35.659141+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: error inspecting object: quay.io/ansible/awx-ee:latest: image not known
+
+2026-10-17T12:02:53.769730+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '703a3fb6-8006-4b22-a6a3-4cc306df7932', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.763209+00:00'}
+2026-10-17T12:02:53.772809+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'cceff3aa-cd60-4bfd-821f-fe3a04b84695', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764017+00:00'}
+2026-10-17T12:02:53.773467+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1d39220b-d3bb-4585-ac49-e7ebaa6ee8ba', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764146+00:00'}
+2026-10-17T12:02:53.773927+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'f0af1128-7875-4e02-b172-98469a65d669', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764220+00:00'}
+2026-10-17T12:02:53.774556+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5050cd27-aa31-4a54-bb98-e691302a535d', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764284+00:00'}
+2026-10-17T12:02:53.775053+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '6f529768-90a0-454e-a131-4d73ec0a66ba', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764340+00:00'}
+2026-10-17T12:02:53.775431+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '65374449-18a9-42a5-9afb-d363a6bb25de', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764404+00:00'}
+2026-10-17T12:02:53.775721+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '750e6bd3-7486-419a-986e-a6adb6574a21', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764479+00:00'}
+2026-10-17T12:02:53.776073+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a4286e7b-96b1-45e3-b5a0-d950955b8e61', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764538+00:00'}
+2026-10-17T12:02:53.776262+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3b6ac7d2-1841-440d-ab47-1d874fdbb39e', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '4ca20f16-dc6e-4789-ae5a-f0762a2a4021', 'created': '2026-10-17T12:02:53.764585+00:00'}
+2026-10-18T05:35:57.855915+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '39345eca-b852-4eef-b76b-c406d4ac1175', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846559+00:00'}
+2026-10-18T05:35:57.858136+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '450a0d43-679f-400c-9a6f-e57467ee652f', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846695+00:00'}
+2026-10-18T05:35:57.858228+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'b2511fc7-5e1a-43fa-97d4-22b2f8b26f3d', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846728+00:00'}
+2026-10-18T05:35:57.858268+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3861a0d0-d4f7-42e4-9490-bfce4d9f8d86', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846753+00:00'}
+2026-10-18T05:35:57.858295+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5de928f1-dd10-4cda-8498-02c83745f79b', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846778+00:00'}
+2026-10-18T05:35:57.858320+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '312c98b8-f0fa-4bb3-bcb2-4131db2555a9', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846799+00:00'}
+2026-10-18T05:35:57.858343+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '2a2b39eb-3216-4fe3-968c-8227d5723ca6', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846819+00:00'}
+2026-10-18T05:35:57.858368+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3a2bef45-8289-4c7a-843d-6639799fa1c1', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846840+00:00'}
+2026-10-18T05:35:57.858392+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a2472fbd-4c57-46cf-bbc8-87eb317671a4', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846863+00:00'}
+2026-10-18T05:35:57.858417+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '82c0a95a-c918-4e64-9d82-bf1e741d3d89', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '67a1b457-953a-4027-bd82-8b2e66bf139f', 'created': '2026-10-18T05:35:57.846885+00:00'}
+2026-10-18T07:01:39.878364+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9b154d3e-6254-4855-88ea-3a6639125377', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874443+00:00'}
+2026-10-18T07:01:39.879126+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '54cc23e2-c0a1-4f18-878a-5c265a79a25a', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874597+00:00'}
+2026-10-18T07:01:39.881387+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'fafc1a70-f2a4-47b4-9292-5acd98080f10', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874628+00:00'}
+2026-10-18T07:01:39.881507+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '04b54371-e599-4696-beb9-22c3dcc7b681', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874652+00:00'}
+2026-10-18T07:01:39.881542+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '8f0995cf-97dd-4294-9864-4dcc8109369a', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874671+00:00'}
+2026-10-18T07:01:39.881568+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '8f2b633b-9ba1-44ae-9026-647d88d34e72', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874688+00:00'}
+2026-10-18T07:01:39.881590+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a3c9035d-4306-46ec-89f5-4a53cdaba3f0', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874707+00:00'}
+2026-10-18T07:01:39.881612+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9cca3448-bd7f-4a8d-b770-97c1ddba235d', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874724+00:00'}
+2026-10-18T07:01:39.881633+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '64f45632-f73f-4a2c-8a66-9edad4c2b621', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874741+00:00'}
+2026-10-18T07:01:39.881663+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '58fdf5d9-0264-4b3e-b737-1f33ef448c3f', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '10c55a9f-8c85-4555-abcd-45314146be39', 'created': '2026-10-18T07:01:39.874759+00:00'}
+2026-10-18T07:03:36.471695+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '98838972-7a9c-42e0-856e-cfeccfac2864', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462499+00:00'}
+2026-10-18T07:03:36.472172+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9f0a1257-a9f6-4bf1-b67d-e37a574b2725', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462614+00:00'}
+2026-10-18T07:03:36.472420+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '394f59cc-6593-4d28-bdd0-dd57b8b0f252', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462643+00:00'}
+2026-10-18T07:03:36.472580+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a8a3e938-425c-4342-8ff4-a85111fbcac7', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462665+00:00'}
+2026-10-18T07:03:36.472736+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c805e27b-d1ef-4e57-81f7-b23a8360dd48', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462686+00:00'}
+2026-10-18T07:03:36.472882+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c50ecdc6-883f-4d77-994f-89477d59c949', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462706+00:00'}
+2026-10-18T07:03:36.472954+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'afc5597e-cbc8-4297-a673-5328d7e1b29e', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462723+00:00'}
+2026-10-18T07:03:36.473008+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '360d2322-bee1-40f5-8db3-71efda02ef43', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462742+00:00'}
+2026-10-18T07:03:36.473047+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '2153b1c7-f6fa-4f5c-934e-27fd363163bb', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462761+00:00'}
+2026-10-18T07:03:36.473101+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '017dfc46-a601-49fe-9c56-dbad945766be', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '8aebe2b9-4e2b-4c5c-9825-2d07490508c0', 'created': '2026-10-18T07:03:36.462777+00:00'}
+2026-10-18T07:04:21.444474+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'd948433c-ed76-48a5-8d8f-4bf2a9d62675', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441207+00:00'}
+2026-10-18T07:04:21.444768+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a606019c-cee3-4e3c-90ee-9f28b5f6ff8d', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441324+00:00'}
+2026-10-18T07:04:21.444943+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1c93158e-3d6b-4a9a-a26e-aed531633596', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441353+00:00'}
+2026-10-18T07:04:21.445111+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'b9dfa9f0-d19b-499e-adca-df8090e4dae0', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441374+00:00'}
+2026-10-18T07:04:21.445232+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '0d610867-544f-46e6-ba03-a4ac9a444e66', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441394+00:00'}
+2026-10-18T07:04:21.445330+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '40a7f872-6edd-40f1-8388-ac93d17141bd', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441413+00:00'}
+2026-10-18T07:04:21.445390+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '74e01867-087d-4a8d-8bb7-39f5ff5d495e', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441432+00:00'}
+2026-10-18T07:04:21.445440+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a7232fb8-989c-447a-bcc3-2c8e2c1cfe26', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441454+00:00'}
+2026-10-18T07:04:21.445487+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'f40389a5-679a-4859-b104-e4dc58267ca5', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441474+00:00'}
+2026-10-18T07:04:21.445537+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1ccf8eec-01d6-4b3e-b027-d3657b1ae30a', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '415e8184-0ff5-44e6-b893-40cd738c28a0', 'created': '2026-10-18T07:04:21.441491+00:00'}
+2026-10-18T07:05:10.695518+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '7266a55a-8bc1-4163-aa88-141191757559', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.692621+00:00'}
+2026-10-18T07:05:10.696100+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3e643b89-7d7a-4fac-8724-90fe48104796', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693355+00:00'}
+2026-10-18T07:05:10.697390+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '77570ed1-79ed-4f2e-a45a-a2630c3fc922', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693445+00:00'}
+2026-10-18T07:05:10.697591+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3111b103-51af-4840-94cf-2cc45449f527', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693484+00:00'}
+2026-10-18T07:05:10.697825+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3612e49c-e345-46d5-aa6a-45280e94e9ff', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693510+00:00'}
+2026-10-18T07:05:10.697926+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '21b0e757-5f69-422d-a131-4835a5396d7d', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693533+00:00'}
+2026-10-18T07:05:10.697980+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '52ab496a-648f-4526-8b93-6d362ff7c3d9', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693556+00:00'}
+2026-10-18T07:05:10.698008+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '40ee7fd0-5e21-40e8-9b6f-51cbcf04aea8', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693574+00:00'}
+2026-10-18T07:05:10.698043+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e3197c8e-9b24-4da9-bc3b-fbddbb4ce0a7', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693593+00:00'}
+2026-10-18T07:05:10.698070+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c1a57884-0a8d-46ea-aa1b-7e950f0578dc', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '9cd12264-3557-4ff1-9a31-3399ffddcb5f', 'created': '2026-10-18T07:05:10.693609+00:00'}
+2026-10-18T07:06:11.158473+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'cc59e034-a484-4f39-955f-86cd04f7f4f1', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.151770+00:00'}
+2026-10-18T07:06:11.158652+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'f3c2f1f7-cfb0-4606-8545-0ed81bfbbe43', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.151883+00:00'}
+2026-10-18T07:06:11.158723+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9068c001-0cd5-440f-960a-29850068af97', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.151912+00:00'}
+2026-10-18T07:06:11.158771+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '69034832-4f34-468b-b636-40a19823c418', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.151934+00:00'}
+2026-10-18T07:06:11.158796+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'cfd5eb58-e73d-4ddd-8977-8c779f8fda33', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.151956+00:00'}
+2026-10-18T07:06:11.158820+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9cec9ec7-5196-4dda-b98b-90c9095c0e37', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.151974+00:00'}
+2026-10-18T07:06:11.158842+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3d848eba-dae2-4610-9bd0-e01d8510caf9', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.151992+00:00'}
+2026-10-18T07:06:11.158863+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '0d1f3b4f-3445-4e3e-a4a4-8dcd13e98bc6', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.152011+00:00'}
+2026-10-18T07:06:11.158894+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1f069a7b-84cb-4e5b-a631-8b3527d034f5', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.152031+00:00'}
+2026-10-18T07:06:11.158917+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'ff3b338f-4676-4552-961c-5208adb0e4ce', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': 'ce973895-065c-4986-8a77-76dd8991c627', 'created': '2026-10-18T07:06:11.152049+00:00'}
+2026-10-18T07:07:20.934408+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'dee68361-f54a-4545-8ed6-5d5304310ead', 'counter': 1, 'stdout': "\x1b[0;31mERROR! couldn't resolve module/action 'cisco.ios.ios_facts'. This often indicates a misspelling, missing collection, or incorrect module path.\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.930801+00:00'}
+2026-10-18T07:07:20.935548+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c9b0fe82-00c7-495a-a4ec-9b2ec7645ec1', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931258+00:00'}
+2026-10-18T07:07:20.935759+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'fb35ee91-55fc-4085-9d74-2bfc9789f5eb', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/root/implement-inventory/get_facts.yml': line 6, column 7, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931304+00:00'}
+2026-10-18T07:07:20.935909+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '11b71f7a-c754-4781-8db2-0cfea8675d93', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931329+00:00'}
+2026-10-18T07:07:20.936047+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1f0ed5ae-1d56-47c1-8a03-9856b79218da', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931351+00:00'}
+2026-10-18T07:07:20.936184+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '4f3d7365-ae7f-44d5-ba60-d4a637c27dac', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931372+00:00'}
+2026-10-18T07:07:20.936399+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9644ce90-af67-4e98-a5f7-8be13fc56578', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931391+00:00'}
+2026-10-18T07:07:20.936550+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1ac24e87-e739-45dc-8b9f-bc71d57f051b', 'counter': 8, 'stdout': '\x1b[0;31m  tasks:\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931409+00:00'}
+2026-10-18T07:07:20.936671+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'fb78bc37-60f0-494b-a8c4-f9f40a57c20d', 'counter': 9, 'stdout': '\x1b[0;31m    - name: Get Cisco IOS-XE device facts\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931429+00:00'}
+2026-10-18T07:07:20.936770+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '16de60c2-7036-41dd-a24b-54dad0b81924', 'counter': 10, 'stdout': '\x1b[0;31m      ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': 'd29935f1-42bd-443c-bbd5-e7f7a1a7892c', 'created': '2026-10-18T07:07:20.931447+00:00'}
+2026-10-18T07:09:09.884112+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '61587035-85de-403c-81a7-1d7944fc8764', 'counter': 1, 'stdout': '\x1b[1;35m[WARNING]: Collection cisco.nxos does not support Ansible version 2.16.19\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:09.883297+00:00'}
+2026-10-18T07:09:09.894457+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'bee8d9b8-47d3-48bb-8214-e1d01854f8a8', 'counter': 2, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos_facts has been deprecated. \x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:09.888485+00:00'}
+2026-10-18T07:09:09.895156+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e56e7f04-7dfc-4c45-8c01-7c0ce4138e6d', 'counter': 3, 'stdout': '\x1b[0;35mThe junipernetworks.junos collection is deprecated. Use \x1b[0m', 'start_line': 2, 'end_line': 3, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:09.888546+00:00'}
+2026-10-18T07:09:09.895227+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a76d8053-996e-4273-a873-bae21f602674', 'counter': 4, 'stdout': '\x1b[0;35mjuniper.device.junos_facts instead. Redirects will be removed after 2028-04-01.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:09.888604+00:00'}
+2026-10-18T07:09:09.895256+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '36aa8bd4-27b1-49f2-8646-2a63e583bc2b', 'counter': 5, 'stdout': '\x1b[0;35m This feature will be removed from junipernetworks.junos in a release after \x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:09.888628+00:00'}
+2026-10-18T07:09:09.895280+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '71bb953f-68c1-4cd3-ab03-92eeb7abc062', 'counter': 6, 'stdout': '\x1b[0;35m2028-04-01. Deprecation warnings can be disabled by setting \x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:09.888646+00:00'}
+2026-10-18T07:09:09.895310+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '543f268e-7a4b-466f-b45a-5e4e529ea7be', 'counter': 7, 'stdout': '\x1b[0;35mdeprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:09.888669+00:00'}
+2026-10-18T07:09:09.895335+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c00eb1af-808d-437c-8d66-e880ab8b3bf0', 'counter': 8, 'stdout': '\x1b[1;35m[WARNING]: Collection juniper.device does not support Ansible version 2.16.19\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:09.891371+00:00'}
+2026-10-18T07:09:10.984560+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'fba1efb5-90d7-485f-b16d-f69c6d3b1fd2', 'counter': 20, 'stdout': '\x1b[1;35m[WARNING]: ansible-pylibssh not installed, falling back to paramiko\x1b[0m', 'start_line': 13, 'end_line': 14, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:10.976043+00:00'}
+2026-10-18T07:09:22.199471+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '8ec41361-2633-4770-be88-ac9a01a5ab4e', 'counter': 53, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos has been deprecated. The \x1b[0m', 'start_line': 33, 'end_line': 34, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:22.195099+00:00'}
+2026-10-18T07:09:22.199584+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'cf8d1c60-aa65-42eb-a98c-07d4af695f87', 'counter': 54, 'stdout': '\x1b[0;35mjunipernetworks.junos collection is deprecated. Use the juniper.device \x1b[0m', 'start_line': 34, 'end_line': 35, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:22.195168+00:00'}
+2026-10-18T07:09:22.199620+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '7c6673ae-39bc-4a80-a989-d5e0b07e7d9e', 'counter': 55, 'stdout': '\x1b[0;35mcollection instead. Redirects will be removed after 2028-04-01. Update your \x1b[0m', 'start_line': 35, 'end_line': 36, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:22.195193+00:00'}
+2026-10-18T07:09:22.199649+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9f01b06d-bbf4-4a0b-a42a-4c39f6fc7799', 'counter': 56, 'stdout': '\x1b[0;35mplaybooks to use juniper.device FQCNs. This feature will be removed from \x1b[0m', 'start_line': 36, 'end_line': 37, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:22.195213+00:00'}
+2026-10-18T07:09:22.199678+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '6b120cc8-e85c-4b46-b28a-8204f80c3555', 'counter': 57, 'stdout': '\x1b[0;35mjunipernetworks.junos in a release after 2028-04-01. Deprecation warnings can \x1b[0m', 'start_line': 37, 'end_line': 38, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:22.195237+00:00'}
+2026-10-18T07:09:22.199703+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'ccb8a233-cbc2-4636-8136-1f6ae5c80fbf', 'counter': 58, 'stdout': '\x1b[0;35mbe disabled by setting deprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 38, 'end_line': 39, 'runner_ident': '43d63a23-d510-4376-9cc6-3fa2afd5e1a7', 'created': '2026-10-18T07:09:22.195256+00:00'}
+2026-10-18T07:10:10.668630+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '84d0a8bc-c99e-4ede-992c-90cb52a8f882', 'counter': 1, 'stdout': '\x1b[1;35m[WARNING]: Collection cisco.nxos does not support Ansible version 2.16.19\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:10.663586+00:00'}
+2026-10-18T07:10:10.669101+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e79df28f-1eb1-4761-974c-c59450c6f01d', 'counter': 2, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos_facts has been deprecated. \x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:10.663724+00:00'}
+2026-10-18T07:10:10.669343+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '625b2239-f67e-4330-ac9d-ca13993444a7', 'counter': 3, 'stdout': '\x1b[0;35mThe junipernetworks.junos collection is deprecated. Use \x1b[0m', 'start_line': 2, 'end_line': 3, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:10.663756+00:00'}
+2026-10-18T07:10:10.669496+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '015da3d2-d59f-428e-91ed-62d4f9c65646', 'counter': 4, 'stdout': '\x1b[0;35mjuniper.device.junos_facts instead. Redirects will be removed after 2028-04-01.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:10.663780+00:00'}
+2026-10-18T07:10:10.669616+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '17725d81-027e-484b-a545-17c47039e93e', 'counter': 5, 'stdout': '\x1b[0;35m This feature will be removed from junipernetworks.junos in a release after \x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:10.663802+00:00'}
+2026-10-18T07:10:10.669720+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'd446a1c6-ab81-4403-b39d-b0bba60de40b', 'counter': 6, 'stdout': '\x1b[0;35m2028-04-01. Deprecation warnings can be disabled by setting \x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:10.663822+00:00'}
+2026-10-18T07:10:10.669835+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '01aff53c-81f4-455b-abc2-25d587156433', 'counter': 7, 'stdout': '\x1b[0;35mdeprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:10.663843+00:00'}
+2026-10-18T07:10:10.669934+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '33d0a885-701f-4faf-bad9-03e323f4ef6b', 'counter': 8, 'stdout': '\x1b[1;35m[WARNING]: Collection juniper.device does not support Ansible version 2.16.19\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:10.664179+00:00'}
+2026-10-18T07:10:11.155440+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'b2555500-8449-4073-a66b-e97a4c8c829e', 'counter': 20, 'stdout': '\x1b[1;35m[WARNING]: ansible-pylibssh not installed, falling back to paramiko\x1b[0m', 'start_line': 14, 'end_line': 15, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:11.154515+00:00'}
+2026-10-18T07:10:14.661350+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a4744b71-6208-472c-b7f1-f67b740323a1', 'counter': 47, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos has been deprecated. The \x1b[0m', 'start_line': 31, 'end_line': 32, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:14.653755+00:00'}
+2026-10-18T07:10:14.661567+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '7c8de9fe-79c5-4567-beaa-8a7664192939', 'counter': 48, 'stdout': '\x1b[0;35mjunipernetworks.junos collection is deprecated. Use the juniper.device \x1b[0m', 'start_line': 32, 'end_line': 33, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:14.653755+00:00'}
+2026-10-18T07:10:14.662069+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '05b3ea75-9eb8-45a2-9f08-6b4d9b071c11', 'counter': 49, 'stdout': '\x1b[0;35mcollection instead. Redirects will be removed after 2028-04-01. Update your \x1b[0m', 'start_line': 33, 'end_line': 34, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:14.653755+00:00'}
+2026-10-18T07:10:14.662492+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5ab0b76b-5323-41f4-bafd-8357584a3502', 'counter': 50, 'stdout': '\x1b[0;35mplaybooks to use juniper.device FQCNs. This feature will be removed from \x1b[0m', 'start_line': 34, 'end_line': 35, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:14.653755+00:00'}
+2026-10-18T07:10:14.662874+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '89b6e377-7ea9-47a7-b155-0478568d19b3', 'counter': 51, 'stdout': '\x1b[0;35mjunipernetworks.junos in a release after 2028-04-01. Deprecation warnings can \x1b[0m', 'start_line': 35, 'end_line': 36, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:14.653755+00:00'}
+2026-10-18T07:10:14.663075+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3d1da024-1049-4dc7-950b-0c54ce48860e', 'counter': 52, 'stdout': '\x1b[0;35mbe disabled by setting deprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 36, 'end_line': 37, 'runner_ident': 'bd4e63af-d7c1-4f04-8d86-6f2da7ed4c4f', 'created': '2026-10-18T07:10:14.653755+00:00'}
+2026-10-18T07:12:56.829640+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '6632c4cd-0b4b-4095-844d-08b67d215558', 'counter': 1, 'stdout': '\x1b[1;35m[WARNING]: Collection cisco.nxos does not support Ansible version 2.16.19\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:56.825493+00:00'}
+2026-10-18T07:12:56.829788+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '214d9339-e511-41da-a69f-18df8623f047', 'counter': 2, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos_facts has been deprecated. \x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:56.828379+00:00'}
+2026-10-18T07:12:56.829836+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5a2e44a5-7110-424a-8cb1-479a776de8c7', 'counter': 3, 'stdout': '\x1b[0;35mThe junipernetworks.junos collection is deprecated. Use \x1b[0m', 'start_line': 2, 'end_line': 3, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:56.828445+00:00'}
+2026-10-18T07:12:56.829863+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a392be35-5218-4fbd-8619-88003bbba4ec', 'counter': 4, 'stdout': '\x1b[0;35mjuniper.device.junos_facts instead. Redirects will be removed after 2028-04-01.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:56.828471+00:00'}
+2026-10-18T07:12:56.829886+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '11efd2cc-f292-4e31-97c0-04e497b0fe24', 'counter': 5, 'stdout': '\x1b[0;35m This feature will be removed from junipernetworks.junos in a release after \x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:56.828493+00:00'}
+2026-10-18T07:12:56.829906+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a1d8e995-8ad1-4add-b17e-90e1656aa2ed', 'counter': 6, 'stdout': '\x1b[0;35m2028-04-01. Deprecation warnings can be disabled by setting \x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:56.828510+00:00'}
+2026-10-18T07:12:56.829928+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '658f254d-65a7-47d4-97b8-0f1482b055f6', 'counter': 7, 'stdout': '\x1b[0;35mdeprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:56.828528+00:00'}
+2026-10-18T07:12:56.829948+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '0ef53410-44ed-4882-9311-457c570ab27d', 'counter': 8, 'stdout': '\x1b[1;35m[WARNING]: Collection juniper.device does not support Ansible version 2.16.19\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:56.828547+00:00'}
+2026-10-18T07:12:57.400856+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '2ea289f0-4886-44ef-98b9-98ff1b4ab849', 'counter': 20, 'stdout': '\x1b[1;35m[WARNING]: ansible-pylibssh not installed, falling back to paramiko\x1b[0m', 'start_line': 14, 'end_line': 15, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:12:57.396503+00:00'}
+2026-10-18T07:13:00.520880+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'b984a6c5-6e3a-43bc-91ef-4ab0b532a707', 'counter': 47, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos has been deprecated. The \x1b[0m', 'start_line': 31, 'end_line': 32, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:13:00.516996+00:00'}
+2026-10-18T07:13:00.521285+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '4373ce1e-2bfe-4d57-891b-b07cfe0b2556', 'counter': 48, 'stdout': '\x1b[0;35mjunipernetworks.junos collection is deprecated. Use the juniper.device \x1b[0m', 'start_line': 32, 'end_line': 33, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:13:00.517069+00:00'}
+2026-10-18T07:13:00.521618+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '2041cf50-591f-44de-9028-e31d9d0bf843', 'counter': 49, 'stdout': '\x1b[0;35mcollection instead. Redirects will be removed after 2028-04-01. Update your \x1b[0m', 'start_line': 33, 'end_line': 34, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:13:00.517097+00:00'}
+2026-10-18T07:13:00.521708+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '42b96d52-b22f-446c-b6b8-720cdb8e852f', 'counter': 50, 'stdout': '\x1b[0;35mplaybooks to use juniper.device FQCNs. This feature will be removed from \x1b[0m', 'start_line': 34, 'end_line': 35, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:13:00.517119+00:00'}
+2026-10-18T07:13:00.521973+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '6bc3199e-7bdf-4d25-a93b-8384aaf6e857', 'counter': 51, 'stdout': '\x1b[0;35mjunipernetworks.junos in a release after 2028-04-01. Deprecation warnings can \x1b[0m', 'start_line': 35, 'end_line': 36, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:13:00.517140+00:00'}
+2026-10-18T07:13:00.522156+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '6a660465-9277-49fc-803d-182a87b3ca6d', 'counter': 52, 'stdout': '\x1b[0;35mbe disabled by setting deprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 36, 'end_line': 37, 'runner_ident': '953a8082-d937-4be7-8188-d182111989ff', 'created': '2026-10-18T07:13:00.517159+00:00'}
+2026-10-18T08:08:24.826126+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a934b89b-f3f9-495a-a513-fe0bc9634776', 'counter': 1, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos_facts has been deprecated. \x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:24.824293+00:00'}
+2026-10-18T08:08:24.826261+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'f958040a-29e7-4068-9b12-f4211db60a3a', 'counter': 2, 'stdout': '\x1b[0;35mThe junipernetworks.junos collection is deprecated. Use \x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:24.824412+00:00'}
+2026-10-18T08:08:24.826301+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5b977bdd-f4cb-4e58-a16e-b19799094dda', 'counter': 3, 'stdout': '\x1b[0;35mjuniper.device.junos_facts instead. Redirects will be removed after 2028-04-01.\x1b[0m', 'start_line': 2, 'end_line': 3, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:24.824441+00:00'}
+2026-10-18T08:08:24.826327+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3f1c72c1-556d-417f-b8e2-faaa96dcd86f', 'counter': 4, 'stdout': '\x1b[0;35m This feature will be removed from junipernetworks.junos in a release after \x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:24.824463+00:00'}
+2026-10-18T08:08:24.826350+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3574b2cb-3cb5-4ade-b81c-577c0e8769fd', 'counter': 5, 'stdout': '\x1b[0;35m2028-04-01. Deprecation warnings can be disabled by setting \x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:24.824482+00:00'}
+2026-10-18T08:08:24.826380+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '366c499c-d60c-4d9a-80d1-eb9b3d0d4afb', 'counter': 6, 'stdout': '\x1b[0;35mdeprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:24.824499+00:00'}
+2026-10-18T08:08:24.826403+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e47ce3d4-58e1-406d-a3ee-e8d5eb5c83c7', 'counter': 7, 'stdout': '\x1b[1;35m[WARNING]: Collection juniper.device does not support Ansible version 2.16.19\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:24.824969+00:00'}
+2026-10-18T08:08:25.417858+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '314b6fa1-9743-49be-9e0d-90999ad0d116', 'counter': 19, 'stdout': '\x1b[1;35m[WARNING]: ansible-pylibssh not installed, falling back to paramiko\x1b[0m', 'start_line': 13, 'end_line': 14, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:25.415326+00:00'}
+2026-10-18T08:08:33.178701+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '650d8833-e982-45ab-8c54-7ac1bb94dbd2', 'counter': 46, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos has been deprecated. The \x1b[0m', 'start_line': 30, 'end_line': 31, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:33.175012+00:00'}
+2026-10-18T08:08:33.179236+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'd591e5ff-5ca7-46a0-94e7-d83b4fe9a42f', 'counter': 47, 'stdout': '\x1b[0;35mjunipernetworks.junos collection is deprecated. Use the juniper.device \x1b[0m', 'start_line': 31, 'end_line': 32, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:33.175073+00:00'}
+2026-10-18T08:08:33.179320+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a7b1b29f-a318-4d44-9a32-5f23ee512a67', 'counter': 48, 'stdout': '\x1b[0;35mcollection instead. Redirects will be removed after 2028-04-01. Update your \x1b[0m', 'start_line': 32, 'end_line': 33, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:33.175099+00:00'}
+2026-10-18T08:08:33.179358+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9042c821-670d-42a5-b63a-71839e45b6bd', 'counter': 49, 'stdout': '\x1b[0;35mplaybooks to use juniper.device FQCNs. This feature will be removed from \x1b[0m', 'start_line': 33, 'end_line': 34, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:33.175120+00:00'}
+2026-10-18T08:08:33.179387+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '72c13163-1d2e-47b0-81cc-0922dffa5aeb', 'counter': 50, 'stdout': '\x1b[0;35mjunipernetworks.junos in a release after 2028-04-01. Deprecation warnings can \x1b[0m', 'start_line': 34, 'end_line': 35, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:33.175139+00:00'}
+2026-10-18T08:08:33.179413+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '58cfa51d-0dee-49de-8a5a-7dec8e2f1328', 'counter': 51, 'stdout': '\x1b[0;35mbe disabled by setting deprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 35, 'end_line': 36, 'runner_ident': '99e2e6b7-cd76-4996-8be2-5fb148d706f5', 'created': '2026-10-18T08:08:33.175157+00:00'}
+2026-10-18T08:09:11.066110+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '20622b70-39ba-4fb7-8cc3-7d742ef999f3', 'counter': 1, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos_facts has been deprecated. \x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:11.062355+00:00'}
+2026-10-18T08:09:11.066246+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'a14c17b9-0477-4fe8-9883-c60badb7fd77', 'counter': 2, 'stdout': '\x1b[0;35mThe junipernetworks.junos collection is deprecated. Use \x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:11.062481+00:00'}
+2026-10-18T08:09:11.066283+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5ae8ac6c-36f3-418e-9def-963d52c32b9f', 'counter': 3, 'stdout': '\x1b[0;35mjuniper.device.junos_facts instead. Redirects will be removed after 2028-04-01.\x1b[0m', 'start_line': 2, 'end_line': 3, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:11.062512+00:00'}
+2026-10-18T08:09:11.066309+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '39e2afca-84bc-4696-986d-41db77844b41', 'counter': 4, 'stdout': '\x1b[0;35m This feature will be removed from junipernetworks.junos in a release after \x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:11.062536+00:00'}
+2026-10-18T08:09:11.066335+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e71082f5-10cc-46f4-a329-8990bdfe92f9', 'counter': 5, 'stdout': '\x1b[0;35m2028-04-01. Deprecation warnings can be disabled by setting \x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:11.062555+00:00'}
+2026-10-18T08:09:11.066358+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '25826e28-0020-40b7-ad1b-98cfb7783c40', 'counter': 6, 'stdout': '\x1b[0;35mdeprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:11.062575+00:00'}
+2026-10-18T08:09:11.066381+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c7a4db42-6617-4190-9968-c16b63e6ac60', 'counter': 7, 'stdout': '\x1b[1;35m[WARNING]: Collection juniper.device does not support Ansible version 2.16.19\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:11.062592+00:00'}
+2026-10-18T08:09:11.513856+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '2df0119c-3dde-4859-9c73-ba817e55c219', 'counter': 19, 'stdout': '\x1b[1;35m[WARNING]: ansible-pylibssh not installed, falling back to paramiko\x1b[0m', 'start_line': 13, 'end_line': 14, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:11.505965+00:00'}
+2026-10-18T08:09:17.105454+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '1702cb80-c2b0-485b-8a90-cadb90bd4dda', 'counter': 46, 'stdout': '\x1b[0;35m[DEPRECATION WARNING]: junipernetworks.junos.junos has been deprecated. The \x1b[0m', 'start_line': 30, 'end_line': 31, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:17.100164+00:00'}
+2026-10-18T08:09:17.105567+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3ae4c5c1-bf02-4b14-8e95-d32897cf65a7', 'counter': 47, 'stdout': '\x1b[0;35mjunipernetworks.junos collection is deprecated. Use the juniper.device \x1b[0m', 'start_line': 31, 'end_line': 32, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:17.100164+00:00'}
+2026-10-18T08:09:17.105602+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'dcc0ee73-b659-4859-aaf0-84df6ede35a5', 'counter': 48, 'stdout': '\x1b[0;35mcollection instead. Redirects will be removed after 2028-04-01. Update your \x1b[0m', 'start_line': 32, 'end_line': 33, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:17.100164+00:00'}
+2026-10-18T08:09:17.105628+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5183df46-2e7e-4242-948e-d2ae56716bf7', 'counter': 49, 'stdout': '\x1b[0;35mplaybooks to use juniper.device FQCNs. This feature will be removed from \x1b[0m', 'start_line': 33, 'end_line': 34, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:17.100164+00:00'}
+2026-10-18T08:09:17.105656+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '8cd62f38-c6c1-46d8-bc74-6f4a10fe4cc3', 'counter': 50, 'stdout': '\x1b[0;35mjunipernetworks.junos in a release after 2028-04-01. Deprecation warnings can \x1b[0m', 'start_line': 34, 'end_line': 35, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:17.100164+00:00'}
+2026-10-18T08:09:17.105681+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'd8fd8675-90c3-479e-93df-8b3781726c22', 'counter': 51, 'stdout': '\x1b[0;35mbe disabled by setting deprecation_warnings=False in ansible.cfg.\x1b[0m', 'start_line': 35, 'end_line': 36, 'runner_ident': '121ffd9c-05e8-443d-bcd6-5422b015e38f', 'created': '2026-10-18T08:09:17.100164+00:00'}
+2026-10-18T08:34:51.728067+00:00 CRITICAL 'ansible_navigator.actions.run_2e74._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '133662ae-a906-4dbf-92e7-8d5f114dc944', 'counter': 1, 'stdout': '\x1b[1;35m[WARNING]: Collection juniper.device does not support Ansible version 2.16.19\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': 'd61812d8-bc82-478e-8baa-8e418455723f', 'created': '2026-10-18T08:34:51.727846+00:00'}
+2026-10-18T08:40:44.283311+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2026-10-18T08:40:44.283543+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2026-10-18T08:40:44.283608+00:00 DEBUG 'ansible_navigator.main' Babel==2.8.0 
+2026-10-18T08:40:44.283626+00:00 DEBUG 'ansible_navigator.main' Jinja2==3.0.3 
+2026-10-18T08:40:44.283638+00:00 DEBUG 'ansible_navigator.main' Mako==1.1.3 
+2026-10-18T08:40:44.283649+00:00 DEBUG 'ansible_navigator.main' MarkupSafe==2.0.1 
+2026-10-18T08:40:44.283659+00:00 DEBUG 'ansible_navigator.main' Parsley==1.3 
+2026-10-18T08:40:44.283668+00:00 DEBUG 'ansible_navigator.main' Pillow==9.0.1 
+2026-10-18T08:40:44.283678+00:00 DEBUG 'ansible_navigator.main' PyGObject==3.42.1 
+2026-10-18T08:40:44.283687+00:00 DEBUG 'ansible_navigator.main' PyJWT==2.3.0 
+2026-10-18T08:40:44.283704+00:00 DEBUG 'ansible_navigator.main' PyNaCl==1.5.0 
+2026-10-18T08:40:44.283713+00:00 DEBUG 'ansible_navigator.main' PyYAML==6.0.3 
+2026-10-18T08:40:44.283722+00:00 DEBUG 'ansible_navigator.main' SecretStorage==3.3.1 
+2026-10-18T08:40:44.283731+00:00 DEBUG 'ansible_navigator.main' ansible-base==2.10.8 
+2026-10-18T08:40:44.283739+00:00 DEBUG 'ansible_navigator.main' ansible-builder==3.1.1 
+2026-10-18T08:40:44.283748+00:00 DEBUG 'ansible_navigator.main' ansible-compat==26.9.0 
+2026-10-18T08:40:44.283756+00:00 DEBUG 'ansible_navigator.main' ansible-core==2.16.19 
+2026-10-18T08:40:44.283764+00:00 DEBUG 'ansible_navigator.main' ansible-lint==26.9.0 
+2026-10-18T08:40:44.283773+00:00 DEBUG 'ansible_navigator.main' ansible-navigator==26.9.0 
+2026-10-18T08:40:44.283782+00:00 DEBUG 'ansible_navigator.main' ansible-pylibssh==1.4.0 
+2026-10-18T08:40:44.283790+00:00 DEBUG 'ansible_navigator.main' ansible-runner==2.4.3 
+2026-10-18T08:40:44.283799+00:00 DEBUG 'ansible_navigator.main' apache-libcloud==3.2.0 
+2026-10-18T08:40:44.283808+00:00 DEBUG 'ansible_navigator.main' argcomplete==1.8.1 /usr/lib/python3/dist-packages/argcomplete/__init__.py
+2026-10-18T08:40:44.283817+00:00 DEBUG 'ansible_navigator.main' bcrypt==3.2.0 /usr/lib/python3/dist-packages/bcrypt/__init__.py
+2026-10-18T08:40:44.283826+00:00 DEBUG 'ansible_navigator.main' bindep==2.14.0 /usr/local/lib/python3.10/dist-packages/bindep/__init__.py
+2026-10-18T08:40:44.283835+00:00 DEBUG 'ansible_navigator.main' certifi==2020.6.20 /usr/lib/python3/dist-packages/certifi/__init__.py
+2026-10-18T08:40:44.283845+00:00 DEBUG 'ansible_navigator.main' cffi==2.0.0 /usr/local/lib/python3.10/dist-packages/cffi/__init__.py
+2026-10-18T08:40:44.283854+00:00 DEBUG 'ansible_navigator.main' chardet==4.0.0 /usr/lib/python3/dist-packages/chardet/__init__.py
+2026-10-18T08:40:44.283863+00:00 DEBUG 'ansible_navigator.main' click==8.0.3 /usr/lib/python3/dist-packages/click/__init__.py
+2026-10-18T08:40:44.283872+00:00 DEBUG 'ansible_navigator.main' colorama==0.4.4 /usr/lib/python3/dist-packages/colorama/__init__.py
+2026-10-18T08:40:44.283881+00:00 DEBUG 'ansible_navigator.main' cryptography==50.0.2 /usr/local/lib/python3.10/dist-packages/cryptography/__init__.py
+2026-10-18T08:40:44.283890+00:00 DEBUG 'ansible_navigator.main' dbus-python==1.2.18 
+2026-10-18T08:40:44.283898+00:00 DEBUG 'ansible_navigator.main' defer==1.0.6 /usr/lib/python3/dist-packages/defer/__init__.py
+2026-10-18T08:40:44.283907+00:00 DEBUG 'ansible_navigator.main' distro-info==1.1+ubuntu0.2 
+2026-10-18T08:40:44.283916+00:00 DEBUG 'ansible_navigator.main' distro==1.9.0 /usr/local/lib/python3.10/dist-packages/distro/__init__.py
+2026-10-18T08:40:44.283924+00:00 DEBUG 'ansible_navigator.main' dnspython==2.1.0 
+2026-10-18T08:40:44.283933+00:00 DEBUG 'ansible_navigator.main' duplicity==0.8.21 /usr/lib/python3/dist-packages/duplicity/__init__.py
+2026-10-18T08:40:44.283942+00:00 DEBUG 'ansible_navigator.main' fasteners==0.14.1 /usr/lib/python3/dist-packages/fasteners/__init__.py
+2026-10-18T08:40:44.283951+00:00 DEBUG 'ansible_navigator.main' future==0.18.2 /usr/lib/python3/dist-packages/future/__init__.py
+2026-10-18T08:40:44.283960+00:00 DEBUG 'ansible_navigator.main' httplib2==0.20.2 /usr/lib/python3/dist-packages/httplib2/__init__.py
+2026-10-18T08:40:44.283968+00:00 DEBUG 'ansible_navigator.main' idna==3.3 /usr/lib/python3/dist-packages/idna/__init__.py
+2026-10-18T08:40:44.283977+00:00 DEBUG 'ansible_navigator.main' importlib-metadata==4.6.4 
+2026-10-18T08:40:44.283986+00:00 DEBUG 'ansible_navigator.main' invoke==3.0.3 /usr/local/lib/python3.10/dist-packages/invoke/__init__.py
+2026-10-18T08:40:44.283994+00:00 DEBUG 'ansible_navigator.main' jmespath==0.10.0 /usr/lib/python3/dist-packages/jmespath/__init__.py
+2026-10-18T08:40:44.284003+00:00 DEBUG 'ansible_navigator.main' keyring==23.5.0 /usr/lib/python3/dist-packages/keyring/__init__.py
+2026-10-18T08:40:44.284012+00:00 DEBUG 'ansible_navigator.main' language-selector==0.1 
+2026-10-18T08:40:44.284021+00:00 DEBUG 'ansible_navigator.main' launchpadlib==1.10.16 /usr/lib/python3/dist-packages/launchpadlib/__init__.py
+2026-10-18T08:40:44.284031+00:00 DEBUG 'ansible_navigator.main' lazr.restfulclient==0.14.4 /usr/lib/python3/dist-packages/lazr/restfulclient/__init__.py
+2026-10-18T08:40:44.284039+00:00 DEBUG 'ansible_navigator.main' lazr.uri==1.0.6 /usr/lib/python3/dist-packages/lazr/uri/__init__.py
+2026-10-18T08:40:44.284048+00:00 DEBUG 'ansible_navigator.main' lockfile==0.12.2 /usr/lib/python3/dist-packages/lockfile/__init__.py
+2026-10-18T08:40:44.284057+00:00 DEBUG 'ansible_navigator.main' lxml==6.1.2 /usr/local/lib/python3.10/dist-packages/lxml/__init__.py
+2026-10-18T08:40:44.284066+00:00 DEBUG 'ansible_navigator.main' macaroonbakery==1.3.1 /usr/lib/python3/dist-packages/macaroonbakery/__init__.py
+2026-10-18T08:40:44.284075+00:00 DEBUG 'ansible_navigator.main' monotonic==1.6 /usr/lib/python3/dist-packages/monotonic.py
+2026-10-18T08:40:44.284083+00:00 DEBUG 'ansible_navigator.main' more-itertools==8.10.0 
+2026-10-18T08:40:44.284093+00:00 DEBUG 'ansible_navigator.main' netaddr==0.8.0 /usr/lib/python3/dist-packages/netaddr/__init__.py
+2026-10-18T08:40:44.284101+00:00 DEBUG 'ansible_navigator.main' netifaces==0.11.0 /usr/lib/python3/dist-packages/netifaces.cpython-310-x86_64-linux-gnu.so
+2026-10-18T08:40:44.284110+00:00 DEBUG 'ansible_navigator.main' ntlm-auth==1.4.0 
+2026-10-18T08:40:44.284119+00:00 DEBUG 'ansible_navigator.main' oauthlib==3.2.0 /usr/lib/python3/dist-packages/oauthlib/__init__.py
+2026-10-18T08:40:44.284127+00:00 DEBUG 'ansible_navigator.main' olefile==0.46 /usr/lib/python3/dist-packages/olefile/__init__.py
+2026-10-18T08:40:44.284136+00:00 DEBUG 'ansible_navigator.main' onigurumacffi==1.5.0 /usr/local/lib/python3.10/dist-packages/onigurumacffi.py
+2026-10-18T08:40:44.284144+00:00 DEBUG 'ansible_navigator.main' packaging==26.3 /usr/local/lib/python3.10/dist-packages/packaging/__init__.py
+2026-10-18T08:40:44.284153+00:00 DEBUG 'ansible_navigator.main' paramiko==4.0.0 /usr/local/lib/python3.10/dist-packages/paramiko/__init__.py
+2026-10-18T08:40:44.284162+00:00 DEBUG 'ansible_navigator.main' pbr==7.1.3 /usr/local/lib/python3.10/dist-packages/pbr/__init__.py
+2026-10-18T08:40:44.284171+00:00 DEBUG 'ansible_navigator.main' pip==22.0.2 /usr/lib/python3/dist-packages/pip/__init__.py
+2026-10-18T08:40:44.284180+00:00 DEBUG 'ansible_navigator.main' protobuf==3.12.4 
+2026-10-18T08:40:44.284189+00:00 DEBUG 'ansible_navigator.main' pyRFC3339==1.1 
+2026-10-18T08:40:44.284198+00:00 DEBUG 'ansible_navigator.main' pycparser==3.0 /usr/local/lib/python3.10/dist-packages/pycparser/__init__.py
+2026-10-18T08:40:44.284207+00:00 DEBUG 'ansible_navigator.main' pycryptodomex==3.11.0 
+2026-10-18T08:40:44.284215+00:00 DEBUG 'ansible_navigator.main' pykerberos==1.1.14 
+2026-10-18T08:40:44.284224+00:00 DEBUG 'ansible_navigator.main' pymacaroons==0.13.0 /usr/lib/python3/dist-packages/pymacaroons/__init__.py
+2026-10-18T08:40:44.284233+00:00 DEBUG 'ansible_navigator.main' pyparsing==2.4.7 /usr/lib/python3/dist-packages/pyparsing.py
+2026-10-18T08:40:44.284242+00:00 DEBUG 'ansible_navigator.main' pyserial==3.5 
+2026-10-18T08:40:44.284250+00:00 DEBUG 'ansible_navigator.main' python-apt==2.4.0+ubuntu4.1 
+2026-10-18T08:40:44.284259+00:00 DEBUG 'ansible_navigator.main' python-daemon==3.1.2 
+2026-10-18T08:40:44.284268+00:00 DEBUG 'ansible_navigator.main' python-dateutil==2.8.1 
+2026-10-18T08:40:44.284277+00:00 DEBUG 'ansible_navigator.main' python-debian==0.1.43+ubuntu1.1 
+2026-10-18T08:40:44.284286+00:00 DEBUG 'ansible_navigator.main' pytokens==0.4.1 /usr/local/lib/python3.10/dist-packages/pytokens/__init__.cpython-310-x86_64-linux-gnu.so
+2026-10-18T08:40:44.284295+00:00 DEBUG 'ansible_navigator.main' pytz==2022.1 /usr/lib/python3/dist-packages/pytz/__init__.py
+2026-10-18T08:40:44.284303+00:00 DEBUG 'ansible_navigator.main' pywinrm==0.3.0 
+2026-10-18T08:40:44.284312+00:00 DEBUG 'ansible_navigator.main' pyxdg==0.27 
+2026-10-18T08:40:44.284321+00:00 DEBUG 'ansible_navigator.main' reportlab==3.6.8 /usr/lib/python3/dist-packages/reportlab/__init__.py
+2026-10-18T08:40:44.284329+00:00 DEBUG 'ansible_navigator.main' requests-kerberos==0.12.0 
+2026-10-18T08:40:44.284339+00:00 DEBUG 'ansible_navigator.main' requests-ntlm==1.1.0 
+2026-10-18T08:40:44.284348+00:00 DEBUG 'ansible_navigator.main' requests-toolbelt==0.9.1 
+2026-10-18T08:40:44.284357+00:00 DEBUG 'ansible_navigator.main' requests==2.25.1 /usr/lib/python3/dist-packages/requests/__init__.py
+2026-10-18T08:40:44.284366+00:00 DEBUG 'ansible_navigator.main' resolvelib==1.0.1 /usr/local/lib/python3.10/dist-packages/resolvelib/__init__.py
+2026-10-18T08:40:44.284374+00:00 DEBUG 'ansible_navigator.main' ruamel.yaml==0.19.1 /usr/local/lib/python3.10/dist-packages/ruamel/yaml/__init__.py
+2026-10-18T08:40:44.284383+00:00 DEBUG 'ansible_navigator.main' scp==0.15.0 /usr/local/lib/python3.10/dist-packages/scp.py
+2026-10-18T08:40:44.284391+00:00 DEBUG 'ansible_navigator.main' setuptools==59.6.0 /usr/lib/python3/dist-packages/setuptools/__init__.py
+2026-10-18T08:40:44.284400+00:00 DEBUG 'ansible_navigator.main' simplejson==3.17.6 /usr/lib/python3/dist-packages/simplejson/__init__.py
+2026-10-18T08:40:44.284409+00:00 DEBUG 'ansible_navigator.main' six==1.16.0 /usr/lib/python3/dist-packages/six.py
+2026-10-18T08:40:44.284418+00:00 DEBUG 'ansible_navigator.main' ssh-import-id==5.11 
+2026-10-18T08:40:44.284426+00:00 DEBUG 'ansible_navigator.main' subprocess-tee==0.4.2 
+2026-10-18T08:40:44.284435+00:00 DEBUG 'ansible_navigator.main' textfsm==2.1.0 /usr/local/lib/python3.10/dist-packages/textfsm/__init__.py
+2026-10-18T08:40:44.284444+00:00 DEBUG 'ansible_navigator.main' tzdata==2026.5 /usr/local/lib/python3.10/dist-packages/tzdata/__init__.py
+2026-10-18T08:40:44.284453+00:00 DEBUG 'ansible_navigator.main' ubuntu-drivers-common==0.0.0 
+2026-10-18T08:40:44.284461+00:00 DEBUG 'ansible_navigator.main' ubuntu-pro-client==8001 
+2026-10-18T08:40:44.284470+00:00 DEBUG 'ansible_navigator.main' urllib3==1.26.5 /usr/lib/python3/dist-packages/urllib3/__init__.py
+2026-10-18T08:40:44.284479+00:00 DEBUG 'ansible_navigator.main' wadllib==1.3.6 /usr/lib/python3/dist-packages/wadllib/__init__.py
+2026-10-18T08:40:44.284488+00:00 DEBUG 'ansible_navigator.main' wheel==0.37.1 /usr/lib/python3/dist-packages/wheel/__init__.py
+2026-10-18T08:40:44.284496+00:00 DEBUG 'ansible_navigator.main' xmltodict==0.12.0 /usr/lib/python3/dist-packages/xmltodict.py
+2026-10-18T08:40:44.284505+00:00 DEBUG 'ansible_navigator.main' yamllint==1.38.0 /usr/local/lib/python3.10/dist-packages/yamllint/__init__.py
+2026-10-18T08:40:44.284514+00:00 DEBUG 'ansible_navigator.main' zipp==1.0.0 /usr/lib/python3/dist-packages/zipp.py
+2026-10-18T08:40:44.284523+00:00 DEBUG 'ansible_navigator.main' Default collection_doc_cache_path set to: /root/.cache/ansible-navigator/collection_doc_cache.db
+2026-10-18T08:40:44.284531+00:00 DEBUG 'ansible_navigator.main' EDITOR environment variable not set
+2026-10-18T08:40:44.284540+00:00 DEBUG 'ansible_navigator.main' Default editor_command set to: vi +{line_number} {filename}
+2026-10-18T08:40:44.284549+00:00 DEBUG 'ansible_navigator.main' No config file set by ANSIBLE_NAVIGATOR_CONFIG
+2026-10-18T08:40:44.284558+00:00 DEBUG 'ansible_navigator.main' Looking in /root/.ansible-navigator
+2026-10-18T08:40:44.284566+00:00 DEBUG 'ansible_navigator.main' Looking for '/root/.ansible-navigator.yml', '/root/.ansible-navigator.yaml' and '/root/.ansible-navigator.json'
+2026-10-18T08:40:44.284575+00:00 DEBUG 'ansible_navigator.main' Found 0: 
+2026-10-18T08:40:44.284583+00:00 DEBUG 'ansible_navigator.main' Looking in /root/implement-inventory/ansible-navigator
+2026-10-18T08:40:44.284592+00:00 DEBUG 'ansible_navigator.main' Looking for '/root/implement-inventory/ansible-navigator.yml', '/root/implement-inventory/ansible-navigator.yaml' and '/root/implement-inventory/ansible-navigator.json'
+2026-10-18T08:40:44.284601+00:00 DEBUG 'ansible_navigator.main' Found 1: '/root/implement-inventory/ansible-navigator.yml'
+2026-10-18T08:40:44.284610+00:00 DEBUG 'ansible_navigator.main' All found 1: '/root/implement-inventory/ansible-navigator.yml'
+2026-10-18T08:40:44.284619+00:00 DEBUG 'ansible_navigator.main' Using: /root/implement-inventory/ansible-navigator.yml
+2026-10-18T08:40:44.284629+00:00 DEBUG 'ansible_navigator.main' Using settings file at /root/implement-inventory/ansible-navigator.yml in search path
+2026-10-18T08:40:44.284638+00:00 DEBUG 'ansible_navigator.main' Command provided: 'replay'
+2026-10-18T08:40:44.284647+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.artifact-dir not found in settings file
+2026-10-18T08:40:44.284656+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.rotate-artifacts-count not found in settings file
+2026-10-18T08:40:44.284665+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.timeout not found in settings file
+2026-10-18T08:40:44.284673+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.job-events not found in settings file
+2026-10-18T08:40:44.284682+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.app not found in settings file
+2026-10-18T08:40:44.284690+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.cmdline not found in settings file
+2026-10-18T08:40:44.284699+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.collection-doc-cache-path not found in settings file
+2026-10-18T08:40:44.284708+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.config.path not found in settings file
+2026-10-18T08:40:44.284717+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.container-engine not found in settings file
+2026-10-18T08:40:44.284725+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.container-options not found in settings file
+2026-10-18T08:40:44.284734+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.color.enable not found in settings file
+2026-10-18T08:40:44.284742+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.editor.command not found in settings file
+2026-10-18T08:40:44.284751+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.editor.console not found in settings file
+2026-10-18T08:40:44.284760+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.enable-prompts not found in settings file
+2026-10-18T08:40:44.284768+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.exec.command not found in settings file
+2026-10-18T08:40:44.284777+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.exec.shell not found in settings file
+2026-10-18T08:40:44.284786+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.image not found in settings file
+2026-10-18T08:40:44.284795+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.volume-mounts not found in settings file
+2026-10-18T08:40:44.284804+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.format not found in settings file
+2026-10-18T08:40:44.284813+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-builder.help not found in settings file
+2026-10-18T08:40:44.284822+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.config.help not found in settings file
+2026-10-18T08:40:44.284830+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.help not found in settings file
+2026-10-18T08:40:44.284838+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.inventory.help not found in settings file
+2026-10-18T08:40:44.284847+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.playbook.help not found in settings file
+2026-10-18T08:40:44.284856+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.images.details not found in settings file
+2026-10-18T08:40:44.284864+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.inventory-columns not found in settings file
+2026-10-18T08:40:44.284873+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-lint.config not found in settings file
+2026-10-18T08:40:44.284882+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-lint.lintables not found in settings file
+2026-10-18T08:40:44.284891+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.logging.append not found in settings file
+2026-10-18T08:40:44.284900+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.logging.file not found in settings file
+2026-10-18T08:40:44.284909+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.logging.level not found in settings file
+2026-10-18T08:40:44.284919+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.mode not found in settings file
+2026-10-18T08:40:44.284928+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.color.osc4 not found in settings file
+2026-10-18T08:40:44.284937+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.environment-variables.pass not found in settings file
+2026-10-18T08:40:44.284945+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.playbook.path not found in settings file
+2026-10-18T08:40:44.284954+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.enable not found in settings file
+2026-10-18T08:40:44.284963+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.replay not found in settings file
+2026-10-18T08:40:44.284971+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.save-as not found in settings file
+2026-10-18T08:40:44.284980+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.plugin.name not found in settings file
+2026-10-18T08:40:44.284989+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.plugin.type not found in settings file
+2026-10-18T08:40:44.284998+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.pull.arguments not found in settings file
+2026-10-18T08:40:44.285007+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.pull.policy not found in settings file
+2026-10-18T08:40:44.285015+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.environment-variables.set not found in settings file
+2026-10-18T08:40:44.285024+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.effective not found in settings file
+2026-10-18T08:40:44.285033+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.sample not found in settings file
+2026-10-18T08:40:44.285042+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.schema not found in settings file
+2026-10-18T08:40:44.285051+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.sources not found in settings file
+2026-10-18T08:40:44.285060+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.time-zone not found in settings file
+2026-10-18T08:40:44.285069+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-builder.workdir not found in settings file
+2026-10-18T08:40:44.285078+00:00 DEBUG 'ansible_navigator.main' EE support disabled: using 'ansible --version' for 'ansible.cfg'
+2026-10-18T08:40:44.285087+00:00 DEBUG 'ansible_navigator.main' ansible --version stdout: 'ansible [core 2.16.19]
+  config file = /root/implement-inventory/ansible.cfg
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/local/lib/python3.10/dist-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/local/bin/ansible
+  python version = 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] (/usr/bin/python3)
+  jinja version = 3.0.3
+  libyaml = True
+'
+2026-10-18T08:40:44.285097+00:00 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_artifact_dir. (changed=False)
+2026-10-18T08:40:44.285106+00:00 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_rotate_artifacts_count. (changed=False)
+2026-10-18T08:40:44.285115+00:00 DEBUG 'ansible_navigator.main' Completed post processing for ansible_runner_timeout. (changed=False)
+2026-10-18T08:40:44.285125+00:00 DEBUG 'ansible_navigator.main' Completed post processing for cmdline. (changed=False)
+2026-10-18T08:40:44.285133+00:00 DEBUG 'ansible_navigator.main' Completed post processing for collection_doc_cache_path. (changed=False)
+2026-10-18T08:40:44.285225+00:00 DEBUG 'ansible_navigator.main' Completed post processing for config. (changed=False)
+2026-10-18T08:40:44.285240+00:00 DEBUG 'ansible_navigator.main' Completed post processing for config. (changed=False)
+2026-10-18T08:40:44.285250+00:00 DEBUG 'ansible_navigator.main' Completed post processing for container_engine. (changed=True)
+2026-10-18T08:40:44.285259+00:00 DEBUG 'ansible_navigator.main'  before: 'auto'
+2026-10-18T08:40:44.285267+00:00 DEBUG 'ansible_navigator.main'  after: 'podman'
+2026-10-18T08:40:44.285276+00:00 DEBUG 'ansible_navigator.main' Completed post processing for container_options. (changed=False)
+2026-10-18T08:40:44.285286+00:00 DEBUG 'ansible_navigator.main' Completed post processing for display_color. (changed=False)
+2026-10-18T08:40:44.285294+00:00 DEBUG 'ansible_navigator.main' Completed post processing for enable_prompts. (changed=False)
+2026-10-18T08:40:44.285303+00:00 INFO 'ansible_navigator.main' ansible-playbook found at /usr/local/bin/ansible-playbook
+2026-10-18T08:40:44.285311+00:00 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment. (changed=False)
+2026-10-18T08:40:44.285321+00:00 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment_image. (changed=False)
+2026-10-18T08:40:44.285329+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_builder. (changed=False)
+2026-10-18T08:40:44.285338+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_config. (changed=False)
+2026-10-18T08:40:44.285347+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_doc. (changed=False)
+2026-10-18T08:40:44.285356+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_inventory. (changed=False)
+2026-10-18T08:40:44.285364+00:00 DEBUG 'ansible_navigator.main' Completed post processing for help_playbook. (changed=False)
+2026-10-18T08:40:44.285373+00:00 DEBUG 'ansible_navigator.main' Completed post processing for images_details. (changed=False)
+2026-10-18T08:40:44.285382+00:00 DEBUG 'ansible_navigator.main' Completed post processing for inventory. (changed=True)
+2026-10-18T08:40:44.285391+00:00 DEBUG 'ansible_navigator.main'  before: '['./inventory']'
+2026-10-18T08:40:44.285400+00:00 DEBUG 'ansible_navigator.main'  after: '['/root/implement-inventory/inventory']'
+2026-10-18T08:40:44.285409+00:00 DEBUG 'ansible_navigator.main' Completed post processing for inventory_column. (changed=False)
+2026-10-18T08:40:44.285418+00:00 DEBUG 'ansible_navigator.main' Completed post processing for log_file. (changed=False)
+2026-10-18T08:40:44.285427+00:00 DEBUG 'ansible_navigator.main' Completed post processing for pass_environment_variable. (changed=False)
+2026-10-18T08:40:44.285436+00:00 DEBUG 'ansible_navigator.main' Completed post processing for playbook. (changed=False)
+2026-10-18T08:40:44.285444+00:00 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_replay. (changed=False)
+2026-10-18T08:40:44.285453+00:00 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_save_as. (changed=False)
+2026-10-18T08:40:44.285462+00:00 DEBUG 'ansible_navigator.main' Completed post processing for plugin_name. (changed=False)
+2026-10-18T08:40:44.285471+00:00 DEBUG 'ansible_navigator.main' Completed post processing for pull_arguments. (changed=False)
+2026-10-18T08:40:44.285480+00:00 DEBUG 'ansible_navigator.main' Completed post processing for set_environment_variable. (changed=False)
+2026-10-18T08:40:44.285489+00:00 DEBUG 'ansible_navigator.main' Completed post processing for settings_effective. (changed=False)
+2026-10-18T08:40:44.285498+00:00 DEBUG 'ansible_navigator.main' Completed post processing for settings_sample. (changed=False)
+2026-10-18T08:40:44.285507+00:00 DEBUG 'ansible_navigator.main' Completed post processing for settings_schema. (changed=False)
+2026-10-18T08:40:44.285516+00:00 DEBUG 'ansible_navigator.main' Completed post processing for settings_sources. (changed=False)
+2026-10-18T08:40:44.285524+00:00 DEBUG 'ansible_navigator.main' Completed post processing for time_zone. (changed=False)
+2026-10-18T08:40:44.285533+00:00 DEBUG 'ansible_navigator.main' Completed post processing for execution_environment_volume_mounts. (changed=False)
+2026-10-18T08:40:44.285544+00:00 DEBUG 'ansible_navigator.main' Completed post processing for mode. (changed=False)
+2026-10-18T08:40:44.285553+00:00 DEBUG 'ansible_navigator.main' Completed post processing for playbook_artifact_enable. (changed=False)
+2026-10-18T08:40:44.285564+00:00 WARNING 'ansible_navigator.main' Configuration errors encountered, rolling back to previous configuration.
+2026-10-18T08:40:44.285573+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_artifact_dir = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285582+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_rotate_artifacts_count = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285591+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_timeout = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285600+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_write_job_events = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285609+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: app = 'replay' (str/Command line)
+2026-10-18T08:40:44.285618+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: cmdline = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285626+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: collection_doc_cache_path = '/root/.cache/ansible-navigator/collection_doc_cache.db' (str/Defaults)
+2026-10-18T08:40:44.285635+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: config = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285644+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: container_engine = 'podman' (str/Automatically determined)
+2026-10-18T08:40:44.285653+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: container_options = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285661+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: display_color = 'True' (bool/Defaults)
+2026-10-18T08:40:44.285670+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: editor_command = 'vi +{line_number} {filename}' (str/Defaults)
+2026-10-18T08:40:44.285679+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: editor_console = 'True' (bool/Defaults)
+2026-10-18T08:40:44.285688+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: enable_prompts = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285696+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: exec_command = '/bin/bash' (str/Defaults)
+2026-10-18T08:40:44.285705+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: exec_shell = 'True' (bool/Defaults)
+2026-10-18T08:40:44.285713+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment = 'False' (bool/Settings file)
+2026-10-18T08:40:44.285722+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment_image = 'ghcr.io/ansible/community-ansible-dev-tools:latest' (str/Defaults)
+2026-10-18T08:40:44.285730+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment_volume_mounts = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285739+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: format = 'yaml' (str/Defaults)
+2026-10-18T08:40:44.285748+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_builder = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285757+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_config = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285766+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_doc = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285774+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_inventory = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285783+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_playbook = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285791+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: images_details = '['everything']' (list/Defaults)
+2026-10-18T08:40:44.285800+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: inventory = '['/root/implement-inventory/inventory']' (list/Settings file)
+2026-10-18T08:40:44.285810+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: inventory_column = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285819+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: lint_config = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285827+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: lintables = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285836+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_append = 'True' (bool/Defaults)
+2026-10-18T08:40:44.285845+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_file = '/root/implement-inventory/ansible-navigator.log' (str/Defaults)
+2026-10-18T08:40:44.285853+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_level = 'warning' (str/Defaults)
+2026-10-18T08:40:44.285862+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: mode = 'interactive' (str/Defaults)
+2026-10-18T08:40:44.285871+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: osc4 = 'True' (bool/Defaults)
+2026-10-18T08:40:44.285880+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pass_environment_variable = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285888+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285897+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_enable = 'True' (bool/Defaults)
+2026-10-18T08:40:44.285906+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_replay = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285914+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_save_as = '{playbook_dir}/{playbook_name}-artifact-{time_stamp}.json' (str/Defaults)
+2026-10-18T08:40:44.285923+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: plugin_name = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285932+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: plugin_type = 'module' (str/Defaults)
+2026-10-18T08:40:44.285940+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pull_arguments = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285949+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pull_policy = 'tag' (str/Defaults)
+2026-10-18T08:40:44.285958+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: set_environment_variable = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.285967+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_effective = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285976+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_sample = 'False' (bool/Defaults)
+2026-10-18T08:40:44.285985+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_schema = 'json' (str/Defaults)
+2026-10-18T08:40:44.285994+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_sources = 'False' (bool/Defaults)
+2026-10-18T08:40:44.286002+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: time_zone = 'UTC' (str/Defaults)
+2026-10-18T08:40:44.286011+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: workdir = '/root/implement-inventory' (str/Defaults)
+2026-10-18T08:40:44.286020+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_artifact_dir = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286029+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_rotate_artifacts_count = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286037+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_timeout = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286046+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_write_job_events = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286055+00:00 DEBUG 'ansible_navigator.main' After rollback: app = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286064+00:00 DEBUG 'ansible_navigator.main' After rollback: cmdline = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286073+00:00 DEBUG 'ansible_navigator.main' After rollback: collection_doc_cache_path = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286083+00:00 DEBUG 'ansible_navigator.main' After rollback: config = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286092+00:00 DEBUG 'ansible_navigator.main' After rollback: container_engine = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286101+00:00 DEBUG 'ansible_navigator.main' After rollback: container_options = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286109+00:00 DEBUG 'ansible_navigator.main' After rollback: display_color = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286118+00:00 DEBUG 'ansible_navigator.main' After rollback: editor_command = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286127+00:00 DEBUG 'ansible_navigator.main' After rollback: editor_console = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286135+00:00 DEBUG 'ansible_navigator.main' After rollback: enable_prompts = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286144+00:00 DEBUG 'ansible_navigator.main' After rollback: exec_command = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286153+00:00 DEBUG 'ansible_navigator.main' After rollback: exec_shell = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286162+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286171+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment_image = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286180+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment_volume_mounts = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286188+00:00 DEBUG 'ansible_navigator.main' After rollback: format = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286197+00:00 DEBUG 'ansible_navigator.main' After rollback: help_builder = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286206+00:00 DEBUG 'ansible_navigator.main' After rollback: help_config = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286215+00:00 DEBUG 'ansible_navigator.main' After rollback: help_doc = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286223+00:00 DEBUG 'ansible_navigator.main' After rollback: help_inventory = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286232+00:00 DEBUG 'ansible_navigator.main' After rollback: help_playbook = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286241+00:00 DEBUG 'ansible_navigator.main' After rollback: images_details = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286249+00:00 DEBUG 'ansible_navigator.main' After rollback: inventory = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286258+00:00 DEBUG 'ansible_navigator.main' After rollback: inventory_column = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286267+00:00 DEBUG 'ansible_navigator.main' After rollback: lint_config = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286276+00:00 DEBUG 'ansible_navigator.main' After rollback: lintables = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286284+00:00 DEBUG 'ansible_navigator.main' After rollback: log_append = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286293+00:00 DEBUG 'ansible_navigator.main' After rollback: log_file = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286301+00:00 DEBUG 'ansible_navigator.main' After rollback: log_level = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286310+00:00 DEBUG 'ansible_navigator.main' After rollback: mode = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286319+00:00 DEBUG 'ansible_navigator.main' After rollback: osc4 = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286328+00:00 DEBUG 'ansible_navigator.main' After rollback: pass_environment_variable = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286336+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286345+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_enable = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286354+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_replay = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286362+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_save_as = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286374+00:00 DEBUG 'ansible_navigator.main' After rollback: plugin_name = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286383+00:00 DEBUG 'ansible_navigator.main' After rollback: plugin_type = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286392+00:00 DEBUG 'ansible_navigator.main' After rollback: pull_arguments = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286400+00:00 DEBUG 'ansible_navigator.main' After rollback: pull_policy = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286409+00:00 DEBUG 'ansible_navigator.main' After rollback: set_environment_variable = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286418+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_effective = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286426+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_sample = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286435+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_schema = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286444+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_sources = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286453+00:00 DEBUG 'ansible_navigator.main' After rollback: time_zone = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286461+00:00 DEBUG 'ansible_navigator.main' After rollback: workdir = 'Not set' (Constants/Not set)
+2026-10-18T08:40:44.286470+00:00 DEBUG 'ansible_navigator.main' Configuration rollback complete.
+2026-10-18T08:40:44.286479+00:00 DEBUG 'ansible_navigator.main' Collection doc cache not mounted
+2026-10-18T08:40:44.286494+00:00 WARNING 'ansible_navigator.main' Issues were found while applying the settings.
+2026-10-18T08:40:44.286505+00:00 INFO 'ansible_navigator.main' Command provided: 'replay'
+2026-10-18T08:40:44.286516+00:00 ERROR 'ansible_navigator.main' An playbook artifact file is required when using the replay subcommand
+2026-10-18T08:40:44.286527+00:00 INFO 'ansible_navigator.main' Try again with 'replay <path to playbook artifact>'
+2026-10-18T08:40:44.286537+00:00 INFO 'ansible_navigator.main' Configuration failed, using default log file location. (/root/implement-inventory/ansible-navigator.log) Log level set to debug
+2026-10-18T08:40:44.286548+00:00 INFO 'ansible_navigator.main' Review the hints and log file to see what went wrong.
+2026-10-18T08:42:40.412418+00:00 ERROR 'ansible_navigator.actions.run_replay._init_replay' Unable to parse artifact file
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/ansible_navigator/actions/run.py", line 578, in _init_replay
+    data = json.load(fh)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-10-18T08:42:52.997471+00:00 ERROR 'ansible_navigator.actions.run_replay._init_replay' Unable to parse artifact file
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/ansible_navigator/actions/run.py", line 578, in _init_replay
+    data = json.load(fh)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+2026-10-18T08:43:20.404775+00:00 CRITICAL 'ansible_navigator.actions.run_6363._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9b015320-7550-4234-a900-916d3d9f3c38', 'counter': 1, 'stdout': '\x1b[1;35m[WARNING]: Collection juniper.device does not support Ansible version 2.16.19\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': 'cc7dbe03-659e-4c65-9994-a2dcacdf8709', 'created': '2026-10-18T08:43:20.404536+00:00'}
+2026-10-18T08:43:27.823955+00:00 ERROR 'ansible_navigator.actions.run_6363.run' Can not step back while playbook in progress, :q! to exit
+2026-10-18T08:43:28.601335+00:00 ERROR 'ansible_navigator.actions.run_6363.run' Can not step back while playbook in progress, :q! to exit
+2026-10-18T08:43:29.253429+00:00 ERROR 'ansible_navigator.actions.run_6363.run' Can not step back while playbook in progress, :q! to exit
+2026-10-18T08:43:29.825105+00:00 ERROR 'ansible_navigator.actions.run_6363.run' Can not step back while playbook in progress, :q! to exit
+2026-10-18T08:43:38.707195+00:00 ERROR 'ansible_navigator.actions.run_replay._init_replay' Unable to parse artifact file
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/ansible_navigator/actions/run.py", line 578, in _init_replay
+    data = json.load(fh)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

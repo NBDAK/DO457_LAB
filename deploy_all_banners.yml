@@ -1,0 +1,31 @@
+---
+- name: Configure Banners Across All Multi-Vendor Devices
+  hosts: network_devices
+  gather_facts: false
+  tasks:
+    - name: Set Banner on Cisco IOS / IOS-XE Devices
+      cisco.ios.ios_banner:
+        banner: motd
+        text: "AUTHORIZED ACCESS ONLY - LAB"
+        state: present
+      when: ansible_network_os == 'cisco.ios.ios'
+
+    - name: Set Banner on Cisco NX-OS Devices
+      cisco.nxos.nxos_banner:
+        banner: motd
+        text: "AUTHORIZED ACCESS ONLY - NXOS LAB"
+        state: present
+      when: ansible_network_os == 'cisco.nxos.nxos'
+
+    - name: Set Junos System Login Message on Juniper
+      junipernetworks.junos.junos_config:
+        lines:
+          - set system login message "AUTHORIZED ACCESS ONLY - JUNIPER LAB"
+      when: ansible_network_os == 'junipernetworks.junos.junos'
+
+    - name: Set Banner on Arista EOS Devices
+      arista.eos.eos_banner:
+        banner: motd
+        text: "AUTHORIZED ACCESS ONLY - ARISTA LAB"
+        state: present
+      when: ansible_network_os == 'arista.eos.eos'

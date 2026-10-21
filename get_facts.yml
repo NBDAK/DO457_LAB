@@ -1,0 +1,21 @@
+---
+- name: Gather facts from multi-vendor network devices
+  hosts: network_devices
+  gather_facts: false
+  tasks:
+    - name: Get Cisco IOS/IOS-XE device facts
+      cisco.ios.ios_facts:
+      when: ansible_network_os == 'cisco.ios.ios'
+
+    - name: Get Cisco NX-OS device facts
+      cisco.nxos.nxos_facts:
+      when: ansible_network_os == 'cisco.nxos.nxos'
+      ignore_errors: yes
+
+    - name: Get Juniper Junos device facts
+      junipernetworks.junos.junos_facts:
+      when: ansible_network_os == 'junipernetworks.junos.junos'
+
+    - name: Get Arista EOS device facts
+      arista.eos.eos_facts:
+      when: ansible_network_os == 'arista.eos.eos'
