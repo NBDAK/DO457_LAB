@@ -1,7 +1,7 @@
 ---
 ansible-navigator:
   execution-environment:
-    enabled: false
+    enabled: true
   ansible:
     inventory:
       entries:
